@@ -1,0 +1,2284 @@
+[
+    {
+        "word": "It's",
+        "original_global_index": 0,
+        "start": 13.28,
+        "end": 13.49,
+        "case": "success"
+    },
+    {
+        "word": "getting",
+        "original_global_index": 1,
+        "start": 13.49,
+        "end": 13.540000000000001,
+        "case": "success"
+    },
+    {
+        "word": "late",
+        "original_global_index": 2,
+        "start": 13.54,
+        "end": 13.569999999999999,
+        "case": "success"
+    },
+    {
+        "word": "have",
+        "original_global_index": 3,
+        "start": 14.67,
+        "end": 14.88,
+        "case": "success"
+    },
+    {
+        "word": "you",
+        "original_global_index": 4,
+        "start": 15.0,
+        "end": 15.03,
+        "case": "success"
+    },
+    {
+        "word": "seen",
+        "original_global_index": 5,
+        "start": 15.03,
+        "end": 15.299999999999999,
+        "case": "success"
+    },
+    {
+        "word": "my",
+        "original_global_index": 6,
+        "start": 15.299999,
+        "end": 15.349999,
+        "case": "success"
+    },
+    {
+        "word": "mates",
+        "original_global_index": 7,
+        "start": 15.62,
+        "end": 15.78,
+        "case": "success"
+    },
+    {
+        "word": "Ma",
+        "original_global_index": 8,
+        "start": 16.469999,
+        "end": 16.619999,
+        "case": "success"
+    },
+    {
+        "word": "tell",
+        "original_global_index": 9,
+        "start": 16.619999,
+        "end": 16.879999,
+        "case": "success"
+    },
+    {
+        "word": "me",
+        "original_global_index": 10,
+        "start": 16.879999,
+        "end": 16.999999000000003,
+        "case": "success"
+    },
+    {
+        "word": "when",
+        "original_global_index": 11,
+        "start": 17.01,
+        "end": 17.26,
+        "case": "success"
+    },
+    {
+        "word": "the",
+        "original_global_index": 12,
+        "start": 17.26,
+        "end": 17.400000000000002,
+        "case": "success"
+    },
+    {
+        "word": "boys",
+        "original_global_index": 13,
+        "start": 18.01,
+        "end": 18.040000000000003,
+        "case": "success"
+    },
+    {
+        "word": "get",
+        "original_global_index": 14,
+        "start": 18.040000000000003,
+        "end": 18.070000000000004,
+        "case": "success"
+    },
+    {
+        "word": "here",
+        "original_global_index": 15,
+        "start": 18.070000000000004,
+        "end": 18.160000000000004,
+        "case": "success"
+    },
+    {
+        "word": "It's",
+        "original_global_index": 16,
+        "start": 19.57,
+        "end": 19.740000000000002,
+        "case": "success"
+    },
+    {
+        "word": "seven",
+        "original_global_index": 17,
+        "start": 19.740000000000002,
+        "end": 20.01,
+        "case": "success"
+    },
+    {
+        "word": "o'clock",
+        "original_global_index": 18,
+        "start": 20.270000000000003,
+        "end": 20.840000000000003,
+        "case": "success"
+    },
+    {
+        "word": "and",
+        "original_global_index": 19,
+        "start": 21.02,
+        "end": 21.06,
+        "case": "success"
+    },
+    {
+        "word": "I",
+        "original_global_index": 20,
+        "start": 21.07,
+        "end": 21.14,
+        "case": "success"
+    },
+    {
+        "word": "want",
+        "original_global_index": 21,
+        "start": 21.14,
+        "end": 21.44,
+        "case": "success"
+    },
+    {
+        "word": "to",
+        "original_global_index": 22,
+        "start": 21.44,
+        "end": 21.560000000000002,
+        "case": "success"
+    },
+    {
+        "word": "rock",
+        "original_global_index": 23,
+        "start": 21.56,
+        "end": 21.73,
+        "case": "success"
+    },
+    {
+        "word": "Want",
+        "original_global_index": 24,
+        "start": 22.36,
+        "end": 22.64,
+        "case": "success"
+    },
+    {
+        "word": "to",
+        "original_global_index": 25,
+        "start": 22.64,
+        "end": 22.72,
+        "case": "success"
+    },
+    {
+        "word": "get",
+        "original_global_index": 26,
+        "start": 22.72,
+        "end": 23.2,
+        "case": "success"
+    },
+    {
+        "word": "a",
+        "original_global_index": 27,
+        "start": 23.2,
+        "end": 23.3,
+        "case": "success"
+    },
+    {
+        "word": "belly",
+        "original_global_index": 28,
+        "start": null,
+        "end": null,
+        "case": "failed_min_words_for_recursion"
+    },
+    {
+        "word": "full",
+        "original_global_index": 29,
+        "start": 23.68,
+        "end": 23.89,
+        "case": "success"
+    },
+    {
+        "word": "of",
+        "original_global_index": 30,
+        "start": 23.89,
+        "end": 23.91,
+        "case": "success"
+    },
+    {
+        "word": "beer",
+        "original_global_index": 31,
+        "start": null,
+        "end": null,
+        "case": "failed_invalid_gap_time"
+    },
+    {
+        "word": "My",
+        "original_global_index": 32,
+        "start": null,
+        "end": null,
+        "case": "failed_invalid_gap_time"
+    },
+    {
+        "word": "old",
+        "original_global_index": 33,
+        "start": null,
+        "end": null,
+        "case": "failed_invalid_gap_time"
+    },
+    {
+        "word": "man's",
+        "original_global_index": 34,
+        "start": null,
+        "end": null,
+        "case": "failed_invalid_gap_time"
+    },
+    {
+        "word": "drunker",
+        "original_global_index": 35,
+        "start": 23.92,
+        "end": 24.3,
+        "case": "success"
+    },
+    {
+        "word": "than",
+        "original_global_index": 36,
+        "start": 27.36,
+        "end": 27.39,
+        "case": "success"
+    },
+    {
+        "word": "a",
+        "original_global_index": 37,
+        "start": 27.559998999999998,
+        "end": 27.639998999999996,
+        "case": "success"
+    },
+    {
+        "word": "barrel",
+        "original_global_index": 38,
+        "start": 27.639999,
+        "end": 28.039998999999998,
+        "case": "success"
+    },
+    {
+        "word": "full",
+        "original_global_index": 39,
+        "start": 28.04,
+        "end": 28.33,
+        "case": "success"
+    },
+    {
+        "word": "of",
+        "original_global_index": 40,
+        "start": 28.33,
+        "end": 28.4,
+        "case": "success"
+    },
+    {
+        "word": "monkeys",
+        "original_global_index": 41,
+        "start": 28.41,
+        "end": 28.92,
+        "case": "success"
+    },
+    {
+        "word": "And",
+        "original_global_index": 42,
+        "start": 28.92,
+        "end": 29.080000000000002,
+        "case": "success"
+    },
+    {
+        "word": "my",
+        "original_global_index": 43,
+        "start": 29.08,
+        "end": 29.24,
+        "case": "success"
+    },
+    {
+        "word": "old",
+        "original_global_index": 44,
+        "start": 29.240000000000002,
+        "end": 29.46,
+        "case": "success"
+    },
+    {
+        "word": "lady",
+        "original_global_index": 45,
+        "start": 29.46,
+        "end": 29.71,
+        "case": "success"
+    },
+    {
+        "word": "she",
+        "original_global_index": 46,
+        "start": 29.990000000000002,
+        "end": 30.26,
+        "case": "success"
+    },
+    {
+        "word": "don't",
+        "original_global_index": 47,
+        "start": 30.259999,
+        "end": 30.659999,
+        "case": "success"
+    },
+    {
+        "word": "care",
+        "original_global_index": 48,
+        "start": 30.66,
+        "end": 31.12,
+        "case": "success"
+    },
+    {
+        "word": "My",
+        "original_global_index": 49,
+        "start": 32.19,
+        "end": 32.379999999999995,
+        "case": "success"
+    },
+    {
+        "word": "sister",
+        "original_global_index": 50,
+        "start": 32.38,
+        "end": 32.760000000000005,
+        "case": "success"
+    },
+    {
+        "word": "looks",
+        "original_global_index": 51,
+        "start": 32.759999,
+        "end": 33.019999,
+        "case": "success"
+    },
+    {
+        "word": "cute",
+        "original_global_index": 52,
+        "start": 33.16,
+        "end": 33.55,
+        "case": "success"
+    },
+    {
+        "word": "in",
+        "original_global_index": 53,
+        "start": 33.58,
+        "end": 33.87,
+        "case": "success"
+    },
+    {
+        "word": "her",
+        "original_global_index": 54,
+        "start": 33.9,
+        "end": 33.92,
+        "case": "success"
+    },
+    {
+        "word": "braces",
+        "original_global_index": 55,
+        "start": 33.92,
+        "end": 34.440000000000005,
+        "case": "success"
+    },
+    {
+        "word": "and",
+        "original_global_index": 56,
+        "start": 34.440000999999995,
+        "end": 34.56000099999999,
+        "case": "success"
+    },
+    {
+        "word": "boots",
+        "original_global_index": 57,
+        "start": 34.57,
+        "end": 35.06,
+        "case": "success"
+    },
+    {
+        "word": "A",
+        "original_global_index": 58,
+        "start": 35.33,
+        "end": 35.51,
+        "case": "success"
+    },
+    {
+        "word": "handful",
+        "original_global_index": 59,
+        "start": 35.510000000000005,
+        "end": 36.03000000000001,
+        "case": "success"
+    },
+    {
+        "word": "of",
+        "original_global_index": 60,
+        "start": 36.029999000000004,
+        "end": 36.079999,
+        "case": "success"
+    },
+    {
+        "word": "grease",
+        "original_global_index": 61,
+        "start": 36.09,
+        "end": 36.620000000000005,
+        "case": "success"
+    },
+    {
+        "word": "in",
+        "original_global_index": 62,
+        "start": 36.619999,
+        "end": 36.789999,
+        "case": "success"
+    },
+    {
+        "word": "her",
+        "original_global_index": 63,
+        "start": 36.85,
+        "end": 36.92,
+        "case": "success"
+    },
+    {
+        "word": "hair",
+        "original_global_index": 64,
+        "start": 36.92,
+        "end": 37.35,
+        "case": "success"
+    },
+    {
+        "word": "Oh,",
+        "original_global_index": 65,
+        "start": null,
+        "end": null,
+        "case": "error_transcript_gentle_desync"
+    },
+    {
+        "word": "don't",
+        "original_global_index": 66,
+        "start": 65.89,
+        "end": 65.92,
+        "case": "success"
+    },
+    {
+        "word": "give",
+        "original_global_index": 67,
+        "start": 65.92,
+        "end": 65.95,
+        "case": "success"
+    },
+    {
+        "word": "us",
+        "original_global_index": 68,
+        "start": 65.949999,
+        "end": 65.969999,
+        "case": "success"
+    },
+    {
+        "word": "none",
+        "original_global_index": 69,
+        "start": 65.97,
+        "end": 66.0,
+        "case": "success"
+    },
+    {
+        "word": "of",
+        "original_global_index": 70,
+        "start": 66.0,
+        "end": 66.02,
+        "case": "success"
+    },
+    {
+        "word": "your",
+        "original_global_index": 71,
+        "start": 289.49,
+        "end": 289.52,
+        "case": "success"
+    },
+    {
+        "word": "aggravation",
+        "original_global_index": 72,
+        "start": 289.53,
+        "end": 289.62,
+        "case": "success"
+    },
+    {
+        "word": "We",
+        "original_global_index": 73,
+        "start": 289.62,
+        "end": 289.64,
+        "case": "success"
+    },
+    {
+        "word": "had",
+        "original_global_index": 74,
+        "start": 289.64,
+        "end": 289.67,
+        "case": "success"
+    },
+    {
+        "word": "it",
+        "original_global_index": 75,
+        "start": 295.16,
+        "end": 295.18,
+        "case": "success"
+    },
+    {
+        "word": "with",
+        "original_global_index": 76,
+        "start": 295.18,
+        "end": 295.21000000000004,
+        "case": "success"
+    },
+    {
+        "word": "your",
+        "original_global_index": 77,
+        "start": 295.21000000000004,
+        "end": 295.24,
+        "case": "success"
+    },
+    {
+        "word": "discipline",
+        "original_global_index": 78,
+        "start": null,
+        "end": null,
+        "case": "failed_min_words_for_recursion"
+    },
+    {
+        "word": "Oh,",
+        "original_global_index": 79,
+        "start": null,
+        "end": null,
+        "case": "error_transcript_gentle_desync"
+    },
+    {
+        "word": "Saturday",
+        "original_global_index": 80,
+        "start": null,
+        "end": null,
+        "case": "failed_invalid_gap_time"
+    },
+    {
+        "word": "night's",
+        "original_global_index": 81,
+        "start": null,
+        "end": null,
+        "case": "failed_invalid_gap_time"
+    },
+    {
+        "word": "alright",
+        "original_global_index": 82,
+        "start": 37.28,
+        "end": 37.33,
+        "case": "success"
+    },
+    {
+        "word": "for",
+        "original_global_index": 83,
+        "start": 50.259999,
+        "end": 50.319998999999996,
+        "case": "success"
+    },
+    {
+        "word": "fighting",
+        "original_global_index": 84,
+        "start": 50.32,
+        "end": 51.019999999999996,
+        "case": "success"
+    },
+    {
+        "word": "Get",
+        "original_global_index": 85,
+        "start": 51.16,
+        "end": 51.25,
+        "case": "success"
+    },
+    {
+        "word": "a",
+        "original_global_index": 86,
+        "start": 51.25,
+        "end": 51.37,
+        "case": "success"
+    },
+    {
+        "word": "little",
+        "original_global_index": 87,
+        "start": 52.099999999999994,
+        "end": 52.17,
+        "case": "success"
+    },
+    {
+        "word": "action",
+        "original_global_index": 88,
+        "start": 52.169999,
+        "end": 52.439999,
+        "case": "success"
+    },
+    {
+        "word": "in",
+        "original_global_index": 89,
+        "start": 52.799999,
+        "end": 53.279999,
+        "case": "success"
+    },
+    {
+        "word": "Get",
+        "original_global_index": 90,
+        "start": 54.299999,
+        "end": 54.439999,
+        "case": "success"
+    },
+    {
+        "word": "about",
+        "original_global_index": 91,
+        "start": 55.15,
+        "end": 55.48,
+        "case": "success"
+    },
+    {
+        "word": "as",
+        "original_global_index": 92,
+        "start": 55.76,
+        "end": 55.94,
+        "case": "success"
+    },
+    {
+        "word": "oiled",
+        "original_global_index": 93,
+        "start": null,
+        "end": null,
+        "case": "failed_min_words_for_recursion"
+    },
+    {
+        "word": "as",
+        "original_global_index": 94,
+        "start": 121.83999899999999,
+        "end": 121.989999,
+        "case": "success"
+    },
+    {
+        "word": "a",
+        "original_global_index": 95,
+        "start": 121.99,
+        "end": 122.1,
+        "case": "success"
+    },
+    {
+        "word": "diesel",
+        "original_global_index": 96,
+        "start": 122.49,
+        "end": 122.64999999999999,
+        "case": "success"
+    },
+    {
+        "word": "train",
+        "original_global_index": 97,
+        "start": 123.11,
+        "end": 123.3,
+        "case": "success"
+    },
+    {
+        "word": "Gonna",
+        "original_global_index": 98,
+        "start": 123.45,
+        "end": 123.59,
+        "case": "success"
+    },
+    {
+        "word": "set",
+        "original_global_index": 99,
+        "start": 124.06,
+        "end": 124.26,
+        "case": "success"
+    },
+    {
+        "word": "this",
+        "original_global_index": 100,
+        "start": 124.259999,
+        "end": 124.439999,
+        "case": "success"
+    },
+    {
+        "word": "dance",
+        "original_global_index": 101,
+        "start": 124.44,
+        "end": 124.49,
+        "case": "success"
+    },
+    {
+        "word": "alight",
+        "original_global_index": 102,
+        "start": 124.95,
+        "end": 125.59,
+        "case": "success"
+    },
+    {
+        "word": "'Cause",
+        "original_global_index": 103,
+        "start": 126.6,
+        "end": 126.75,
+        "case": "success"
+    },
+    {
+        "word": "Saturday",
+        "original_global_index": 104,
+        "start": 126.75,
+        "end": 127.08,
+        "case": "success"
+    },
+    {
+        "word": "night's",
+        "original_global_index": 105,
+        "start": 127.35,
+        "end": 127.69,
+        "case": "success"
+    },
+    {
+        "word": "the",
+        "original_global_index": 106,
+        "start": 127.689999,
+        "end": 127.709999,
+        "case": "success"
+    },
+    {
+        "word": "night",
+        "original_global_index": 107,
+        "start": 128.06,
+        "end": 128.61,
+        "case": "success"
+    },
+    {
+        "word": "I",
+        "original_global_index": 108,
+        "start": 128.62,
+        "end": 129.32999999999998,
+        "case": "success"
+    },
+    {
+        "word": "like",
+        "original_global_index": 109,
+        "start": 129.34,
+        "end": 129.4,
+        "case": "success"
+    },
+    {
+        "word": "Saturday",
+        "original_global_index": 110,
+        "start": 129.64999999999998,
+        "end": 130.20999999999998,
+        "case": "success"
+    },
+    {
+        "word": "night's",
+        "original_global_index": 111,
+        "start": 130.20999999999998,
+        "end": 130.26,
+        "case": "success"
+    },
+    {
+        "word": "alright",
+        "original_global_index": 112,
+        "start": 131.12,
+        "end": 131.60000000000002,
+        "case": "success"
+    },
+    {
+        "word": "alright",
+        "original_global_index": 113,
+        "start": 131.73000000000002,
+        "end": 132.13,
+        "case": "success"
+    },
+    {
+        "word": "alright,",
+        "original_global_index": 114,
+        "start": null,
+        "end": null,
+        "case": "error_transcript_gentle_desync"
+    },
+    {
+        "word": "ooh",
+        "original_global_index": 115,
+        "start": 37.34,
+        "end": 37.42,
+        "case": "success"
+    },
+    {
+        "word": "Well",
+        "original_global_index": 116,
+        "start": 65.65,
+        "end": 66.04,
+        "case": "success"
+    },
+    {
+        "word": "they're",
+        "original_global_index": 117,
+        "start": 79.73,
+        "end": 79.76,
+        "case": "success"
+    },
+    {
+        "word": "packed",
+        "original_global_index": 118,
+        "start": 79.76,
+        "end": 79.88,
+        "case": "success"
+    },
+    {
+        "word": "pretty",
+        "original_global_index": 119,
+        "start": 80.17,
+        "end": 80.41,
+        "case": "success"
+    },
+    {
+        "word": "tight",
+        "original_global_index": 120,
+        "start": 80.61,
+        "end": 80.7,
+        "case": "success"
+    },
+    {
+        "word": "in",
+        "original_global_index": 121,
+        "start": 81.02000000000001,
+        "end": 81.19,
+        "case": "success"
+    },
+    {
+        "word": "here",
+        "original_global_index": 122,
+        "start": 81.19,
+        "end": 81.8,
+        "case": "success"
+    },
+    {
+        "word": "tonight",
+        "original_global_index": 123,
+        "start": 81.91,
+        "end": 82.39,
+        "case": "success"
+    },
+    {
+        "word": "I'm",
+        "original_global_index": 124,
+        "start": 82.72,
+        "end": 82.94,
+        "case": "success"
+    },
+    {
+        "word": "looking",
+        "original_global_index": 125,
+        "start": 82.94,
+        "end": 83.34,
+        "case": "success"
+    },
+    {
+        "word": "for",
+        "original_global_index": 126,
+        "start": 83.34,
+        "end": 83.64,
+        "case": "success"
+    },
+    {
+        "word": "a",
+        "original_global_index": 127,
+        "start": 83.639999,
+        "end": 83.73999900000001,
+        "case": "success"
+    },
+    {
+        "word": "dolly",
+        "original_global_index": 128,
+        "start": 84.229999,
+        "end": 84.26999900000001,
+        "case": "success"
+    },
+    {
+        "word": "who'll",
+        "original_global_index": 129,
+        "start": 84.26999900000001,
+        "end": 84.29999900000001,
+        "case": "success"
+    },
+    {
+        "word": "see",
+        "original_global_index": 130,
+        "start": 84.29999900000001,
+        "end": 84.729999,
+        "case": "success"
+    },
+    {
+        "word": "me",
+        "original_global_index": 131,
+        "start": 85.089999,
+        "end": 85.109999,
+        "case": "success"
+    },
+    {
+        "word": "right",
+        "original_global_index": 132,
+        "start": 85.109999,
+        "end": 85.609999,
+        "case": "success"
+    },
+    {
+        "word": "I",
+        "original_global_index": 133,
+        "start": 85.79999900000001,
+        "end": 85.949999,
+        "case": "success"
+    },
+    {
+        "word": "may",
+        "original_global_index": 134,
+        "start": 85.949999,
+        "end": 86.04999900000001,
+        "case": "success"
+    },
+    {
+        "word": "use",
+        "original_global_index": 135,
+        "start": 86.059999,
+        "end": 86.329999,
+        "case": "success"
+    },
+    {
+        "word": "a",
+        "original_global_index": 136,
+        "start": 86.75,
+        "end": 86.75999999999999,
+        "case": "success"
+    },
+    {
+        "word": "little",
+        "original_global_index": 137,
+        "start": 86.76,
+        "end": 86.85000000000001,
+        "case": "success"
+    },
+    {
+        "word": "muscle",
+        "original_global_index": 138,
+        "start": 86.849999,
+        "end": 87.319999,
+        "case": "success"
+    },
+    {
+        "word": "to",
+        "original_global_index": 139,
+        "start": 87.34,
+        "end": 87.52000000000001,
+        "case": "success"
+    },
+    {
+        "word": "get",
+        "original_global_index": 140,
+        "start": 87.519999,
+        "end": 87.759999,
+        "case": "success"
+    },
+    {
+        "word": "what",
+        "original_global_index": 141,
+        "start": 87.76,
+        "end": 87.98,
+        "case": "success"
+    },
+    {
+        "word": "I",
+        "original_global_index": 142,
+        "start": 87.97999899999999,
+        "end": 88.16999899999999,
+        "case": "success"
+    },
+    {
+        "word": "need",
+        "original_global_index": 143,
+        "start": 88.21000000000001,
+        "end": 88.81,
+        "case": "success"
+    },
+    {
+        "word": "I",
+        "original_global_index": 144,
+        "start": 89.0,
+        "end": 89.1,
+        "case": "success"
+    },
+    {
+        "word": "may",
+        "original_global_index": 145,
+        "start": 89.099999,
+        "end": 89.119999,
+        "case": "success"
+    },
+    {
+        "word": "sink",
+        "original_global_index": 146,
+        "start": 89.30000000000001,
+        "end": 89.6,
+        "case": "success"
+    },
+    {
+        "word": "a",
+        "original_global_index": 147,
+        "start": 89.619999,
+        "end": 89.70999900000001,
+        "case": "success"
+    },
+    {
+        "word": "little",
+        "original_global_index": 148,
+        "start": 89.70999900000001,
+        "end": 90.069999,
+        "case": "success"
+    },
+    {
+        "word": "drink",
+        "original_global_index": 149,
+        "start": 90.07,
+        "end": 90.36,
+        "case": "success"
+    },
+    {
+        "word": "and",
+        "original_global_index": 150,
+        "start": 90.360001,
+        "end": 90.48000099999999,
+        "case": "success"
+    },
+    {
+        "word": "shout",
+        "original_global_index": 151,
+        "start": 90.479999,
+        "end": 90.809999,
+        "case": "success"
+    },
+    {
+        "word": "out",
+        "original_global_index": 152,
+        "start": 90.809999,
+        "end": 90.92999900000001,
+        "case": "success"
+    },
+    {
+        "word": "she's",
+        "original_global_index": 153,
+        "start": 90.93,
+        "end": 90.96000000000001,
+        "case": "success"
+    },
+    {
+        "word": "with",
+        "original_global_index": 154,
+        "start": 90.95999900000001,
+        "end": 91.029999,
+        "case": "success"
+    },
+    {
+        "word": "me",
+        "original_global_index": 155,
+        "start": 91.029999,
+        "end": 91.04999900000001,
+        "case": "success"
+    },
+    {
+        "word": "A",
+        "original_global_index": 156,
+        "start": 91.19,
+        "end": 91.19999999999999,
+        "case": "success"
+    },
+    {
+        "word": "couple",
+        "original_global_index": 157,
+        "start": 93.16999999999999,
+        "end": 93.22,
+        "case": "success"
+    },
+    {
+        "word": "of",
+        "original_global_index": 158,
+        "start": 93.22,
+        "end": 93.24,
+        "case": "success"
+    },
+    {
+        "word": "the",
+        "original_global_index": 159,
+        "start": 93.24,
+        "end": 93.25999999999999,
+        "case": "success"
+    },
+    {
+        "word": "sounds",
+        "original_global_index": 160,
+        "start": 93.25999999999999,
+        "end": 93.65,
+        "case": "success"
+    },
+    {
+        "word": "that",
+        "original_global_index": 161,
+        "start": 93.66,
+        "end": 93.91999999999999,
+        "case": "success"
+    },
+    {
+        "word": "I",
+        "original_global_index": 162,
+        "start": 93.91999999999999,
+        "end": 94.00999999999999,
+        "case": "success"
+    },
+    {
+        "word": "really",
+        "original_global_index": 163,
+        "start": 94.06,
+        "end": 94.22,
+        "case": "success"
+    },
+    {
+        "word": "like",
+        "original_global_index": 164,
+        "start": 94.6,
+        "end": 95.03999999999999,
+        "case": "success"
+    },
+    {
+        "word": "Are",
+        "original_global_index": 165,
+        "start": 95.25999999999999,
+        "end": 95.39999999999999,
+        "case": "success"
+    },
+    {
+        "word": "the",
+        "original_global_index": 166,
+        "start": 95.47999999999999,
+        "end": 95.58,
+        "case": "success"
+    },
+    {
+        "word": "sounds",
+        "original_global_index": 167,
+        "start": 95.58,
+        "end": 96.06,
+        "case": "success"
+    },
+    {
+        "word": "of",
+        "original_global_index": 168,
+        "start": 96.06,
+        "end": 96.24,
+        "case": "success"
+    },
+    {
+        "word": "a",
+        "original_global_index": 169,
+        "start": 96.24,
+        "end": 96.32,
+        "case": "success"
+    },
+    {
+        "word": "switchblade",
+        "original_global_index": 170,
+        "start": 96.6,
+        "end": 96.86,
+        "case": "success"
+    },
+    {
+        "word": "and",
+        "original_global_index": 171,
+        "start": 96.87,
+        "end": 97.04,
+        "case": "success"
+    },
+    {
+        "word": "a",
+        "original_global_index": 172,
+        "start": 97.46000000000001,
+        "end": 97.69,
+        "case": "success"
+    },
+    {
+        "word": "motorbike",
+        "original_global_index": 173,
+        "start": 97.7,
+        "end": 98.07,
+        "case": "success"
+    },
+    {
+        "word": "I'm",
+        "original_global_index": 174,
+        "start": 98.36,
+        "end": 98.64,
+        "case": "success"
+    },
+    {
+        "word": "a",
+        "original_global_index": 175,
+        "start": 98.64,
+        "end": 98.72,
+        "case": "success"
+    },
+    {
+        "word": "juvenile",
+        "original_global_index": 176,
+        "start": 98.72,
+        "end": 99.43,
+        "case": "success"
+    },
+    {
+        "word": "product",
+        "original_global_index": 177,
+        "start": 99.43,
+        "end": 99.74000000000001,
+        "case": "success"
+    },
+    {
+        "word": "of",
+        "original_global_index": 178,
+        "start": 99.74000000000001,
+        "end": 99.84,
+        "case": "success"
+    },
+    {
+        "word": "the",
+        "original_global_index": 179,
+        "start": 100.85,
+        "end": 100.87,
+        "case": "success"
+    },
+    {
+        "word": "working",
+        "original_global_index": 180,
+        "start": 100.87,
+        "end": 100.92,
+        "case": "success"
+    },
+    {
+        "word": "class",
+        "original_global_index": 181,
+        "start": 100.92,
+        "end": 101.34,
+        "case": "success"
+    },
+    {
+        "word": "Whose",
+        "original_global_index": 182,
+        "start": 101.66,
+        "end": 101.85000000000001,
+        "case": "success"
+    },
+    {
+        "word": "best",
+        "original_global_index": 183,
+        "start": 101.85000000000001,
+        "end": 102.07000000000001,
+        "case": "success"
+    },
+    {
+        "word": "friend",
+        "original_global_index": 184,
+        "start": 102.07000000000001,
+        "end": 102.45,
+        "case": "success"
+    },
+    {
+        "word": "floats",
+        "original_global_index": 185,
+        "start": 102.46000000000001,
+        "end": 102.86,
+        "case": "success"
+    },
+    {
+        "word": "in",
+        "original_global_index": 186,
+        "start": 123.55,
+        "end": 123.57,
+        "case": "success"
+    },
+    {
+        "word": "the",
+        "original_global_index": 187,
+        "start": 124.25,
+        "end": 124.39,
+        "case": "success"
+    },
+    {
+        "word": "bottom",
+        "original_global_index": 188,
+        "start": 124.81,
+        "end": 125.01,
+        "case": "success"
+    },
+    {
+        "word": "of",
+        "original_global_index": 189,
+        "start": 125.01,
+        "end": 125.03,
+        "case": "success"
+    },
+    {
+        "word": "a",
+        "original_global_index": 190,
+        "start": 128.61,
+        "end": 128.85,
+        "case": "success"
+    },
+    {
+        "word": "glass,",
+        "original_global_index": 191,
+        "start": null,
+        "end": null,
+        "case": "error_transcript_gentle_desync"
+    },
+    {
+        "word": "oh",
+        "original_global_index": 192,
+        "start": 41.660000000000004,
+        "end": 41.93,
+        "case": "success"
+    },
+    {
+        "word": "Don't",
+        "original_global_index": 193,
+        "start": 41.93,
+        "end": 42.19,
+        "case": "success"
+    },
+    {
+        "word": "give",
+        "original_global_index": 194,
+        "start": null,
+        "end": null,
+        "case": "failed_max_depth"
+    },
+    {
+        "word": "us",
+        "original_global_index": 195,
+        "start": null,
+        "end": null,
+        "case": "failed_max_depth"
+    },
+    {
+        "word": "none",
+        "original_global_index": 196,
+        "start": null,
+        "end": null,
+        "case": "failed_max_depth"
+    },
+    {
+        "word": "of",
+        "original_global_index": 197,
+        "start": null,
+        "end": null,
+        "case": "failed_max_depth"
+    },
+    {
+        "word": "your",
+        "original_global_index": 198,
+        "start": null,
+        "end": null,
+        "case": "failed_max_depth"
+    },
+    {
+        "word": "aggravation",
+        "original_global_index": 199,
+        "start": null,
+        "end": null,
+        "case": "failed_max_depth"
+    },
+    {
+        "word": "We",
+        "original_global_index": 200,
+        "start": null,
+        "end": null,
+        "case": "failed_max_depth"
+    },
+    {
+        "word": "had",
+        "original_global_index": 201,
+        "start": null,
+        "end": null,
+        "case": "failed_max_depth"
+    },
+    {
+        "word": "it",
+        "original_global_index": 202,
+        "start": null,
+        "end": null,
+        "case": "failed_max_depth"
+    },
+    {
+        "word": "with",
+        "original_global_index": 203,
+        "start": null,
+        "end": null,
+        "case": "failed_max_depth"
+    },
+    {
+        "word": "your",
+        "original_global_index": 204,
+        "start": null,
+        "end": null,
+        "case": "failed_max_depth"
+    },
+    {
+        "word": "discipline",
+        "original_global_index": 205,
+        "start": null,
+        "end": null,
+        "case": "failed_max_depth"
+    },
+    {
+        "word": "Saturday",
+        "original_global_index": 206,
+        "start": 42.36,
+        "end": 42.43,
+        "case": "success"
+    },
+    {
+        "word": "night's",
+        "original_global_index": 207,
+        "start": 42.43,
+        "end": 42.47,
+        "case": "success"
+    },
+    {
+        "word": "alright",
+        "original_global_index": 208,
+        "start": 42.47,
+        "end": 42.52,
+        "case": "success"
+    },
+    {
+        "word": "for",
+        "original_global_index": 209,
+        "start": 50.230000000000004,
+        "end": 50.3,
+        "case": "success"
+    },
+    {
+        "word": "fighting",
+        "original_global_index": 210,
+        "start": 50.3,
+        "end": 51.010000000000005,
+        "case": "success"
+    },
+    {
+        "word": "Get",
+        "original_global_index": 211,
+        "start": 51.14,
+        "end": 51.29,
+        "case": "success"
+    },
+    {
+        "word": "a",
+        "original_global_index": 212,
+        "start": 51.29,
+        "end": 51.32,
+        "case": "success"
+    },
+    {
+        "word": "little",
+        "original_global_index": 213,
+        "start": 52.09,
+        "end": 52.150000000000006,
+        "case": "success"
+    },
+    {
+        "word": "action",
+        "original_global_index": 214,
+        "start": 52.150000000000006,
+        "end": 52.44,
+        "case": "success"
+    },
+    {
+        "word": "in",
+        "original_global_index": 215,
+        "start": 52.8,
+        "end": 53.24,
+        "case": "success"
+    },
+    {
+        "word": "Get",
+        "original_global_index": 216,
+        "start": 54.279999000000004,
+        "end": 54.429999,
+        "case": "success"
+    },
+    {
+        "word": "about",
+        "original_global_index": 217,
+        "start": 54.88,
+        "end": 55.18,
+        "case": "success"
+    },
+    {
+        "word": "as",
+        "original_global_index": 218,
+        "start": 55.42,
+        "end": 55.44,
+        "case": "success"
+    },
+    {
+        "word": "oiled",
+        "original_global_index": 219,
+        "start": 55.44,
+        "end": 55.47,
+        "case": "success"
+    },
+    {
+        "word": "as",
+        "original_global_index": 220,
+        "start": 55.75,
+        "end": 55.92,
+        "case": "success"
+    },
+    {
+        "word": "a",
+        "original_global_index": 221,
+        "start": 55.92,
+        "end": 56.02,
+        "case": "success"
+    },
+    {
+        "word": "diesel",
+        "original_global_index": 222,
+        "start": 56.05,
+        "end": 56.57,
+        "case": "success"
+    },
+    {
+        "word": "train",
+        "original_global_index": 223,
+        "start": 56.619999,
+        "end": 57.259999,
+        "case": "success"
+    },
+    {
+        "word": "Gonna",
+        "original_global_index": 224,
+        "start": 57.409999,
+        "end": 57.549999,
+        "case": "success"
+    },
+    {
+        "word": "set",
+        "original_global_index": 225,
+        "start": 57.97,
+        "end": 58.21,
+        "case": "success"
+    },
+    {
+        "word": "this",
+        "original_global_index": 226,
+        "start": 58.21,
+        "end": 58.33,
+        "case": "success"
+    },
+    {
+        "word": "dance",
+        "original_global_index": 227,
+        "start": 58.93,
+        "end": 58.989999999999995,
+        "case": "success"
+    },
+    {
+        "word": "alight",
+        "original_global_index": 228,
+        "start": 58.989999999999995,
+        "end": 59.67,
+        "case": "success"
+    },
+    {
+        "word": "'Cause",
+        "original_global_index": 229,
+        "start": null,
+        "end": null,
+        "case": "failed_min_words_for_recursion"
+    },
+    {
+        "word": "Saturday",
+        "original_global_index": 230,
+        "start": 60.68,
+        "end": 61.01,
+        "case": "success"
+    },
+    {
+        "word": "night's",
+        "original_global_index": 231,
+        "start": 61.32,
+        "end": 61.730000000000004,
+        "case": "success"
+    },
+    {
+        "word": "the",
+        "original_global_index": 232,
+        "start": 61.74,
+        "end": 61.78,
+        "case": "success"
+    },
+    {
+        "word": "night",
+        "original_global_index": 233,
+        "start": 62.05,
+        "end": 62.59,
+        "case": "success"
+    },
+    {
+        "word": "I",
+        "original_global_index": 234,
+        "start": 62.59,
+        "end": 63.38,
+        "case": "success"
+    },
+    {
+        "word": "like",
+        "original_global_index": 235,
+        "start": 63.58,
+        "end": 63.61,
+        "case": "success"
+    },
+    {
+        "word": "Saturday",
+        "original_global_index": 236,
+        "start": 63.660000000000004,
+        "end": 63.93000000000001,
+        "case": "success"
+    },
+    {
+        "word": "night's",
+        "original_global_index": 237,
+        "start": 64.47,
+        "end": 64.9,
+        "case": "success"
+    },
+    {
+        "word": "alright",
+        "original_global_index": 238,
+        "start": 65.05000000000001,
+        "end": 65.63,
+        "case": "success"
+    },
+    {
+        "word": "alright",
+        "original_global_index": 239,
+        "start": 79.86,
+        "end": 79.91,
+        "case": "success"
+    },
+    {
+        "word": "alright,",
+        "original_global_index": 240,
+        "start": null,
+        "end": null,
+        "case": "error_transcript_gentle_desync"
+    },
+    {
+        "word": "ooh",
+        "original_global_index": 241,
+        "start": null,
+        "end": null,
+        "case": "failed_min_words_for_recursion"
+    },
+    {
+        "word": "Oh,",
+        "original_global_index": 242,
+        "start": null,
+        "end": null,
+        "case": "error_transcript_gentle_desync"
+    },
+    {
+        "word": "don't",
+        "original_global_index": 243,
+        "start": 42.08,
+        "end": 42.26,
+        "case": "success"
+    },
+    {
+        "word": "give",
+        "original_global_index": 244,
+        "start": 42.28,
+        "end": 42.51,
+        "case": "success"
+    },
+    {
+        "word": "us",
+        "original_global_index": 245,
+        "start": 42.51,
+        "end": 42.58,
+        "case": "success"
+    },
+    {
+        "word": "none",
+        "original_global_index": 246,
+        "start": 42.61,
+        "end": 42.87,
+        "case": "success"
+    },
+    {
+        "word": "of",
+        "original_global_index": 247,
+        "start": 42.87,
+        "end": 42.89,
+        "case": "success"
+    },
+    {
+        "word": "your",
+        "original_global_index": 248,
+        "start": 44.31,
+        "end": 44.34,
+        "case": "success"
+    },
+    {
+        "word": "aggravation",
+        "original_global_index": 249,
+        "start": 44.34,
+        "end": 44.68,
+        "case": "success"
+    },
+    {
+        "word": "We",
+        "original_global_index": 250,
+        "start": 44.84,
+        "end": 44.99,
+        "case": "success"
+    },
+    {
+        "word": "had",
+        "original_global_index": 251,
+        "start": 45.01,
+        "end": 45.29,
+        "case": "success"
+    },
+    {
+        "word": "it",
+        "original_global_index": 252,
+        "start": 45.29,
+        "end": 45.35,
+        "case": "success"
+    },
+    {
+        "word": "with",
+        "original_global_index": 253,
+        "start": 45.35,
+        "end": 45.38,
+        "case": "success"
+    },
+    {
+        "word": "your",
+        "original_global_index": 254,
+        "start": 46.7,
+        "end": 46.730000000000004,
+        "case": "success"
+    },
+    {
+        "word": "discipline",
+        "original_global_index": 255,
+        "start": 46.730000000000004,
+        "end": 46.940000000000005,
+        "case": "success"
+    },
+    {
+        "word": "Saturday",
+        "original_global_index": 256,
+        "start": 48.08,
+        "end": 48.47,
+        "case": "success"
+    },
+    {
+        "word": "night's",
+        "original_global_index": 257,
+        "start": 48.759999,
+        "end": 49.189999,
+        "case": "success"
+    },
+    {
+        "word": "alright",
+        "original_global_index": 258,
+        "start": 49.66,
+        "end": 49.91,
+        "case": "success"
+    },
+    {
+        "word": "for",
+        "original_global_index": 259,
+        "start": 50.259999,
+        "end": 50.319999,
+        "case": "success"
+    },
+    {
+        "word": "fighting",
+        "original_global_index": 260,
+        "start": 50.32,
+        "end": 51.03,
+        "case": "success"
+    },
+    {
+        "word": "Get",
+        "original_global_index": 261,
+        "start": 51.16,
+        "end": 51.29,
+        "case": "success"
+    },
+    {
+        "word": "a",
+        "original_global_index": 262,
+        "start": 51.29,
+        "end": 51.37,
+        "case": "success"
+    },
+    {
+        "word": "little",
+        "original_global_index": 263,
+        "start": 52.099999999999994,
+        "end": 52.16,
+        "case": "success"
+    },
+    {
+        "word": "action",
+        "original_global_index": 264,
+        "start": 52.16,
+        "end": 52.44,
+        "case": "success"
+    },
+    {
+        "word": "in",
+        "original_global_index": 265,
+        "start": 52.779999999999994,
+        "end": 53.26,
+        "case": "success"
+    },
+    {
+        "word": "Get",
+        "original_global_index": 266,
+        "start": 55.64,
+        "end": 55.67,
+        "case": "success"
+    },
+    {
+        "word": "about",
+        "original_global_index": 267,
+        "start": 55.67,
+        "end": 55.85,
+        "case": "success"
+    },
+    {
+        "word": "as",
+        "original_global_index": 268,
+        "start": 55.85,
+        "end": 55.940000000000005,
+        "case": "success"
+    },
+    {
+        "word": "oiled",
+        "original_global_index": 269,
+        "start": null,
+        "end": null,
+        "case": "failed_max_depth"
+    },
+    {
+        "word": "as",
+        "original_global_index": 270,
+        "start": null,
+        "end": null,
+        "case": "failed_max_depth"
+    },
+    {
+        "word": "a",
+        "original_global_index": 271,
+        "start": null,
+        "end": null,
+        "case": "failed_max_depth"
+    },
+    {
+        "word": "diesel",
+        "original_global_index": 272,
+        "start": null,
+        "end": null,
+        "case": "failed_max_depth"
+    },
+    {
+        "word": "train",
+        "original_global_index": 273,
+        "start": null,
+        "end": null,
+        "case": "failed_max_depth"
+    },
+    {
+        "word": "Gonna",
+        "original_global_index": 274,
+        "start": null,
+        "end": null,
+        "case": "failed_max_depth"
+    },
+    {
+        "word": "set",
+        "original_global_index": 275,
+        "start": null,
+        "end": null,
+        "case": "failed_max_depth"
+    },
+    {
+        "word": "this",
+        "original_global_index": 276,
+        "start": null,
+        "end": null,
+        "case": "failed_max_depth"
+    },
+    {
+        "word": "dance",
+        "original_global_index": 277,
+        "start": null,
+        "end": null,
+        "case": "failed_max_depth"
+    },
+    {
+        "word": "alight",
+        "original_global_index": 278,
+        "start": null,
+        "end": null,
+        "case": "failed_max_depth"
+    },
+    {
+        "word": "'Cause",
+        "original_global_index": 279,
+        "start": null,
+        "end": null,
+        "case": "failed_max_depth"
+    },
+    {
+        "word": "Saturday",
+        "original_global_index": 280,
+        "start": 56.52,
+        "end": 56.580000000000005,
+        "case": "success"
+    },
+    {
+        "word": "night's",
+        "original_global_index": 281,
+        "start": 56.580000000000005,
+        "end": 56.620000000000005,
+        "case": "success"
+    },
+    {
+        "word": "the",
+        "original_global_index": 282,
+        "start": 56.620000000000005,
+        "end": 56.64000000000001,
+        "case": "success"
+    },
+    {
+        "word": "night",
+        "original_global_index": 283,
+        "start": 56.64000000000001,
+        "end": 56.67,
+        "case": "success"
+    },
+    {
+        "word": "I",
+        "original_global_index": 284,
+        "start": 56.74,
+        "end": 57.260000000000005,
+        "case": "success"
+    },
+    {
+        "word": "like",
+        "original_global_index": 285,
+        "start": 59.01,
+        "end": 59.309999999999995,
+        "case": "success"
+    },
+    {
+        "word": "Saturday",
+        "original_global_index": 286,
+        "start": 60.69,
+        "end": 61.089999999999996,
+        "case": "success"
+    },
+    {
+        "word": "night's",
+        "original_global_index": 287,
+        "start": 62.92999999999999,
+        "end": 63.12,
+        "case": "success"
+    },
+    {
+        "word": "alright",
+        "original_global_index": 288,
+        "start": 63.12,
+        "end": 63.41,
+        "case": "success"
+    },
+    {
+        "word": "alright",
+        "original_global_index": 289,
+        "start": 115.66,
+        "end": 116.06,
+        "case": "success"
+    },
+    {
+        "word": "alright,",
+        "original_global_index": 290,
+        "start": null,
+        "end": null,
+        "case": "error_transcript_gentle_desync"
+    },
+    {
+        "word": "ooh",
+        "original_global_index": 291,
+        "start": 117.099999,
+        "end": 117.109999,
+        "case": "success"
+    },
+    {
+        "word": "Saturday,",
+        "original_global_index": 292,
+        "start": null,
+        "end": null,
+        "case": "error_transcript_gentle_desync"
+    },
+    {
+        "word": "Saturday,",
+        "original_global_index": 293,
+        "start": null,
+        "end": null,
+        "case": "error_transcript_gentle_desync"
+    },
+    {
+        "word": "Saturday",
+        "original_global_index": 294,
+        "start": null,
+        "end": null,
+        "case": "failed_min_words_for_recursion"
+    },
+    {
+        "word": "Saturday,",
+        "original_global_index": 295,
+        "start": null,
+        "end": null,
+        "case": "error_transcript_gentle_desync"
+    },
+    {
+        "word": "Saturday,",
+        "original_global_index": 296,
+        "start": null,
+        "end": null,
+        "case": "error_transcript_gentle_desync"
+    },
+    {
+        "word": "Saturday",
+        "original_global_index": 297,
+        "start": null,
+        "end": null,
+        "case": "failed_min_words_for_recursion"
+    },
+    {
+        "word": "Saturday,",
+        "original_global_index": 298,
+        "start": null,
+        "end": null,
+        "case": "error_transcript_gentle_desync"
+    },
+    {
+        "word": "Saturday,",
+        "original_global_index": 299,
+        "start": null,
+        "end": null,
+        "case": "error_transcript_gentle_desync"
+    },
+    {
+        "word": "Saturday",
+        "original_global_index": 300,
+        "start": 126.849999,
+        "end": 127.079999,
+        "case": "success"
+    },
+    {
+        "word": "night's",
+        "original_global_index": 301,
+        "start": 127.349999,
+        "end": 127.769999,
+        "case": "success"
+    },
+    {
+        "word": "alright",
+        "original_global_index": 302,
+        "start": null,
+        "end": null,
+        "case": "failed_min_words_for_recursion"
+    },
+    {
+        "word": "Saturday,",
+        "original_global_index": 303,
+        "start": null,
+        "end": null,
+        "case": "error_transcript_gentle_desync"
+    },
+    {
+        "word": "Saturday,",
+        "original_global_index": 304,
+        "start": null,
+        "end": null,
+        "case": "error_transcript_gentle_desync"
+    },
+    {
+        "word": "Saturday",
+        "original_global_index": 305,
+        "start": null,
+        "end": null,
+        "case": "failed_min_words_for_recursion"
+    },
+    {
+        "word": "Saturday,",
+        "original_global_index": 306,
+        "start": null,
+        "end": null,
+        "case": "error_transcript_gentle_desync"
+    },
+    {
+        "word": "Saturday,",
+        "original_global_index": 307,
+        "start": null,
+        "end": null,
+        "case": "error_transcript_gentle_desync"
+    },
+    {
+        "word": "Saturday",
+        "original_global_index": 308,
+        "start": null,
+        "end": null,
+        "case": "failed_min_words_for_recursion"
+    },
+    {
+        "word": "Saturday,",
+        "original_global_index": 309,
+        "start": null,
+        "end": null,
+        "case": "error_transcript_gentle_desync"
+    },
+    {
+        "word": "Saturday,",
+        "original_global_index": 310,
+        "start": null,
+        "end": null,
+        "case": "error_transcript_gentle_desync"
+    },
+    {
+        "word": "Saturday",
+        "original_global_index": 311,
+        "start": 131.419998,
+        "end": 131.479998,
+        "case": "success"
+    },
+    {
+        "word": "night's",
+        "original_global_index": 312,
+        "start": 131.479999,
+        "end": 131.579999,
+        "case": "success"
+    },
+    {
+        "word": "alright",
+        "original_global_index": 313,
+        "start": 131.75,
+        "end": 132.14,
+        "case": "success"
+    },
+    {
+        "word": "Saturday,",
+        "original_global_index": 314,
+        "start": null,
+        "end": null,
+        "case": "error_transcript_gentle_desync"
+    },
+    {
+        "word": "Saturday,",
+        "original_global_index": 315,
+        "start": null,
+        "end": null,
+        "case": "error_transcript_gentle_desync"
+    },
+    {
+        "word": "Saturday",
+        "original_global_index": 316,
+        "start": null,
+        "end": null,
+        "case": "failed_min_words_for_recursion"
+    },
+    {
+        "word": "Saturday,",
+        "original_global_index": 317,
+        "start": null,
+        "end": null,
+        "case": "error_transcript_gentle_desync"
+    },
+    {
+        "word": "Saturday,",
+        "original_global_index": 318,
+        "start": null,
+        "end": null,
+        "case": "error_transcript_gentle_desync"
+    },
+    {
+        "word": "Saturday",
+        "original_global_index": 319,
+        "start": null,
+        "end": null,
+        "case": "failed_min_words_for_recursion"
+    },
+    {
+        "word": "Saturday,",
+        "original_global_index": 320,
+        "start": null,
+        "end": null,
+        "case": "error_transcript_gentle_desync"
+    },
+    {
+        "word": "Saturday,",
+        "original_global_index": 321,
+        "start": null,
+        "end": null,
+        "case": "error_transcript_gentle_desync"
+    },
+    {
+        "word": "Saturday",
+        "original_global_index": 322,
+        "start": 173.75,
+        "end": 174.14,
+        "case": "success"
+    },
+    {
+        "word": "night's",
+        "original_global_index": 323,
+        "start": 174.39999999999998,
+        "end": 174.75,
+        "case": "success"
+    },
+    {
+        "word": "alright,",
+        "original_global_index": 324,
+        "start": null,
+        "end": null,
+        "case": "error_transcript_gentle_desync"
+    },
+    {
+        "word": "ooh",
+        "original_global_index": 325,
+        "start": 134.45,
+        "end": 134.54999999999998,
+        "case": "success"
+    }
+]

@@ -1,0 +1,444 @@
+Starting Recursive Gentle Aligner...
+Using temporary directory for audio segments: C:\Users\graci\AppData\Local\Temp\rec_gentle_run_x05fi1ym
+RecursiveGentle (Depth 0): Aligning 'saturday-night-vocals-only.mp3' (326 words) with offset 0.00s
+Core: Sending alignment request for saturday-night-vocals-only.mp3 and depth0_seg1127437713952365119_jibeq13e.txt...
+  Identified unaligned streak: ['boys', 'get', 'here', "It's", 'seven', "o'clock"]
+  Audio for streak: local start=17.40, local end=21.02
+  RecursiveGentle (Depth 1): Aligning 'depth1_seg4432312409146934866_13.wav' (6 words) with offset 17.40s
+Core: Sending alignment request for depth1_seg4432312409146934866_13.wav and depth1_seg-2907998199950708138_zvtoxynt.txt...
+  Identified unaligned streak: ['belly']
+  Audio for streak: local start=23.30, local end=23.68
+  Identified unaligned streak: ['beer', 'My', 'old', "man's"]
+  Audio for streak: local start=23.91, local end=23.92
+Warning: Mismatch or desync. Gentle: 'Oh', Transcript: 'Oh,'. Marking transcript word as error.
+  Identified unaligned streak: ["don't", 'give', 'us', 'none', 'of', 'your', 'aggravation', 'We', 'had', 'it', 'with', 'your'
+  Audio for streak: local start=37.35, local end=295.44
+  RecursiveGentle (Depth 1): Aligning 'depth1_seg-5084089194565574468_66.wav' (13 words) with offset 37.35s
+Core: Sending alignment request for depth1_seg-5084089194565574468_66.wav and depth1_seg1475100687101934207_i1xqfx8h.txt...
+    Identified unaligned streak: ['discipline']
+    Audio for streak: local start=257.89, local end=258.06
+Warning: Mismatch or desync. Gentle: 'Oh', Transcript: 'Oh,'. Marking transcript word as error.
+  Identified unaligned streak: ['Saturday', "night's"]
+  Audio for streak: local start=37.35, local end=37.28
+  Identified unaligned streak: ['for', 'fighting', 'Get', 'a', 'little', 'action', 'in', 'Get', 'about', 'as', 'oiled', 'as',t', 'this', 'dance', 'alight', "'Cause", 'Saturday', "night's", 'the', 'night', 'I', 'like', 'Saturday', "night's", 'alright'
+  Audio for streak: local start=37.33, local end=295.44
+  RecursiveGentle (Depth 1): Aligning 'depth1_seg4416138115761274238_83.wav' (31 words) with offset 37.33s
+Core: Sending alignment request for depth1_seg4416138115761274238_83.wav and depth1_seg-6499978564720054117_wgt3p9nx.txt...
+    Identified unaligned streak: ['oiled']
+    Audio for streak: local start=18.61, local end=84.51
+Warning: Mismatch or desync. Gentle: 'alright', Transcript: 'alright,'. Marking transcript word as error.
+  Identified unaligned streak: ['Well', "they're", 'packed', 'pretty', 'tight', 'in', 'here', 'tonight', "I'm", 'looking', 'fme', 'right', 'I', 'may', 'use', 'a', 'little', 'muscle', 'to', 'get', 'what', 'I', 'need', 'I', 'may', 'sink', 'a', 'little'e's", 'with', 'me', 'A', 'couple', 'of', 'the', 'sounds', 'that', 'I', 'really', 'like', 'Are', 'the', 'sounds', 'of', 'a', ', "I'm", 'a', 'juvenile', 'product', 'of', 'the', 'working', 'class', 'Whose', 'best', 'friend', 'floats', 'in', 'the', 'bott
+  Audio for streak: local start=37.42, local end=295.44
+  RecursiveGentle (Depth 1): Aligning 'depth1_seg-7566455150805911348_116.wav' (75 words) with offset 37.42s
+Core: Sending alignment request for depth1_seg-7566455150805911348_116.wav and depth1_seg6003961154391069762_qcutq4ig.txt...
+Warning: Mismatch or desync. Gentle: 'glass', Transcript: 'glass,'. Marking transcript word as error.
+  Identified unaligned streak: ['oh', "Don't", 'give', 'us', 'none', 'of', 'your', 'aggravation', 'We', 'had', 'it', 'with', ght's", 'alright', 'for', 'fighting', 'Get', 'a', 'little', 'action', 'in', 'Get', 'about', 'as', 'oiled', 'as', 'a', 'dieseldance', 'alight', "'Cause", 'Saturday', "night's", 'the', 'night', 'I', 'like', 'Saturday', "night's", 'alright', 'alright']
+  Audio for streak: local start=37.42, local end=295.44
+  RecursiveGentle (Depth 1): Aligning 'depth1_seg4053917408329932297_192.wav' (48 words) with offset 37.42s
+Core: Sending alignment request for depth1_seg4053917408329932297_192.wav and depth1_seg4136336751184370411__6wqzu21.txt...
+    Identified unaligned streak: ['give', 'us', 'none', 'of', 'your', 'aggravation', 'We', 'had', 'it', 'with', 'your', 'disc
+    Audio for streak: local start=4.77, local end=4.94
+    RecursiveGentle (Depth 2): Aligning 'depth2_seg-2368459447078094844_194.wav' (12 words) with offset 42.19s
+Core: Sending alignment request for depth2_seg-2368459447078094844_194.wav and depth2_seg-7824133294682689076_qmwpebyn.txt...
+      Identified unaligned streak: ['give', 'us', 'none', 'of', 'your', 'aggravation', 'We', 'had', 'it', 'with', 'your', 'di
+      Audio for streak: local start=0.00, local end=0.18
+      RecursiveGentle (Depth 3): Aligning 'depth3_seg-2368459447078094844_194.wav' (12 words) with offset 42.19s
+      Max recursion depth (2) reached. Marking remaining as failed.
+    Identified unaligned streak: ['as', 'oiled']
+    Audio for streak: local start=17.76, local end=18.33
+    RecursiveGentle (Depth 2): Aligning 'depth2_seg-8039411180903256523_218.wav' (2 words) with offset 55.18s
+Core: Sending alignment request for depth2_seg-8039411180903256523_218.wav and depth2_seg-628691143366864729_srz7fr9p.txt...
+    Identified unaligned streak: ['dance', 'alight', "'Cause"]
+    Audio for streak: local start=20.91, local end=23.26
+    RecursiveGentle (Depth 2): Aligning 'depth2_seg-1304445598942955035_227.wav' (3 words) with offset 58.33s
+Core: Sending alignment request for depth2_seg-1304445598942955035_227.wav and depth2_seg570087422955292269_dbqnvnme.txt...
+      Identified unaligned streak: ["'Cause"]
+      Audio for streak: local start=1.34, local end=2.35
+Warning: Mismatch or desync. Gentle: 'alright', Transcript: 'alright,'. Marking transcript word as error.
+  Identified unaligned streak: ['ooh']
+  Audio for streak: local start=37.42, local end=295.44
+Warning: Mismatch or desync. Gentle: 'Oh', Transcript: 'Oh,'. Marking transcript word as error.
+  Identified unaligned streak: ['your', 'discipline']
+  Audio for streak: local start=45.38, local end=48.08
+  RecursiveGentle (Depth 1): Aligning 'depth1_seg-795963794865288635_254.wav' (2 words) with offset 45.38s
+Core: Sending alignment request for depth1_seg-795963794865288635_254.wav and depth1_seg7534738250329732666_s62jsca2.txt...
+  Identified unaligned streak: ['oiled', 'as', 'a', 'diesel', 'train', 'Gonna', 'set', 'this', 'dance', 'alight', "'Cause"]
+  Audio for streak: local start=55.94, local end=56.52
+  RecursiveGentle (Depth 1): Aligning 'depth1_seg7633091384721423711_269.wav' (11 words) with offset 55.94s
+Core: Sending alignment request for depth1_seg7633091384721423711_269.wav and depth1_seg2208882384701631593_owf6nm14.txt...
+    Identified unaligned streak: ['oiled', 'as', 'a', 'diesel', 'train', 'Gonna', 'set', 'this', 'dance', 'alight', "'Cause"]
+    Audio for streak: local start=0.00, local end=0.57
+    RecursiveGentle (Depth 2): Aligning 'depth2_seg7633091384721423711_269.wav' (11 words) with offset 55.94s
+Core: Sending alignment request for depth2_seg7633091384721423711_269.wav and depth2_seg4607720250833337847_rw__h56i.txt...
+      Identified unaligned streak: ['oiled', 'as', 'a', 'diesel', 'train', 'Gonna', 'set', 'this', 'dance', 'alight', "'Cause
+      Audio for streak: local start=0.00, local end=0.57
+      RecursiveGentle (Depth 3): Aligning 'depth3_seg7633091384721423711_269.wav' (11 words) with offset 55.94s
+      Max recursion depth (2) reached. Marking remaining as failed.
+Warning: Mismatch or desync. Gentle: 'alright', Transcript: 'alright,'. Marking transcript word as error.
+Warning: Mismatch or desync. Gentle: 'Saturday', Transcript: 'Saturday,'. Marking transcript word as error.
+Warning: Mismatch or desync. Gentle: 'Saturday', Transcript: 'Saturday,'. Marking transcript word as error.
+  Identified unaligned streak: ['Saturday']
+  Audio for streak: local start=117.11, local end=295.44
+Warning: Mismatch or desync. Gentle: 'Saturday', Transcript: 'Saturday,'. Marking transcript word as error.
+Warning: Mismatch or desync. Gentle: 'Saturday', Transcript: 'Saturday,'. Marking transcript word as error.
+  Identified unaligned streak: ['Saturday']
+  Audio for streak: local start=117.11, local end=295.44
+Warning: Mismatch or desync. Gentle: 'Saturday', Transcript: 'Saturday,'. Marking transcript word as error.
+Warning: Mismatch or desync. Gentle: 'Saturday', Transcript: 'Saturday,'. Marking transcript word as error.
+  Identified unaligned streak: ['alright']
+  Audio for streak: local start=127.77, local end=295.44
+Warning: Mismatch or desync. Gentle: 'Saturday', Transcript: 'Saturday,'. Marking transcript word as error.
+Warning: Mismatch or desync. Gentle: 'Saturday', Transcript: 'Saturday,'. Marking transcript word as error.
+  Identified unaligned streak: ['Saturday']
+  Audio for streak: local start=127.77, local end=295.44
+Warning: Mismatch or desync. Gentle: 'Saturday', Transcript: 'Saturday,'. Marking transcript word as error.
+Warning: Mismatch or desync. Gentle: 'Saturday', Transcript: 'Saturday,'. Marking transcript word as error.
+  Identified unaligned streak: ['Saturday']
+  Audio for streak: local start=127.77, local end=295.44
+Warning: Mismatch or desync. Gentle: 'Saturday', Transcript: 'Saturday,'. Marking transcript word as error.
+Warning: Mismatch or desync. Gentle: 'Saturday', Transcript: 'Saturday,'. Marking transcript word as error.
+Warning: Mismatch or desync. Gentle: 'Saturday', Transcript: 'Saturday,'. Marking transcript word as error.
+Warning: Mismatch or desync. Gentle: 'Saturday', Transcript: 'Saturday,'. Marking transcript word as error.
+  Identified unaligned streak: ['Saturday']
+  Audio for streak: local start=132.14, local end=295.44
+Warning: Mismatch or desync. Gentle: 'Saturday', Transcript: 'Saturday,'. Marking transcript word as error.
+Warning: Mismatch or desync. Gentle: 'Saturday', Transcript: 'Saturday,'. Marking transcript word as error.
+  Identified unaligned streak: ['Saturday']
+  Audio for streak: local start=132.14, local end=295.44
+Warning: Mismatch or desync. Gentle: 'Saturday', Transcript: 'Saturday,'. Marking transcript word as error.
+Warning: Mismatch or desync. Gentle: 'Saturday', Transcript: 'Saturday,'. Marking transcript word as error.
+  Identified unaligned streak: ['Saturday', "night's"]
+  Audio for streak: local start=132.14, local end=295.44
+  RecursiveGentle (Depth 1): Aligning 'depth1_seg-1080966661194739138_322.wav' (2 words) with offset 132.14s
+Core: Sending alignment request for depth1_seg-1080966661194739138_322.wav and depth1_seg-46041804494313195_v_liowp3.txt...
+Warning: Mismatch or desync. Gentle: 'alright', Transcript: 'alright,'. Marking transcript word as error.
+Cleaned up temporary directory: C:\Users\graci\AppData\Local\Temp\rec_gentle_run_x05fi1ym
+
+--- Final Recursive Alignment Results ---
+  Index 000 | Word: 'It's' | Start: 13.28, End: 13.49
+  Index 001 | Word: 'getting' | Start: 13.49, End: 13.54
+  Index 002 | Word: 'late' | Start: 13.54, End: 13.57
+  Index 003 | Word: 'have' | Start: 14.67, End: 14.88
+  Index 004 | Word: 'you' | Start: 15.00, End: 15.03
+  Index 005 | Word: 'seen' | Start: 15.03, End: 15.30
+  Index 006 | Word: 'my' | Start: 15.30, End: 15.35
+  Index 007 | Word: 'mates' | Start: 15.62, End: 15.78
+  Index 008 | Word: 'Ma' | Start: 16.47, End: 16.62
+  Index 009 | Word: 'tell' | Start: 16.62, End: 16.88
+  Index 010 | Word: 'me' | Start: 16.88, End: 17.00
+  Index 011 | Word: 'when' | Start: 17.01, End: 17.26
+  Index 012 | Word: 'the' | Start: 17.26, End: 17.40
+  Index 013 | Word: 'boys' | Start: 18.01, End: 18.04
+  Index 014 | Word: 'get' | Start: 18.04, End: 18.07
+  Index 015 | Word: 'here' | Start: 18.07, End: 18.16
+  Index 016 | Word: 'It's' | Start: 19.57, End: 19.74
+  Index 017 | Word: 'seven' | Start: 19.74, End: 20.01
+  Index 018 | Word: 'o'clock' | Start: 20.27, End: 20.84
+  Index 019 | Word: 'and' | Start: 21.02, End: 21.06
+  Index 020 | Word: 'I' | Start: 21.07, End: 21.14
+  Index 021 | Word: 'want' | Start: 21.14, End: 21.44
+  Index 022 | Word: 'to' | Start: 21.44, End: 21.56
+  Index 023 | Word: 'rock' | Start: 21.56, End: 21.73
+  Index 024 | Word: 'Want' | Start: 22.36, End: 22.64
+  Index 025 | Word: 'to' | Start: 22.64, End: 22.72
+  Index 026 | Word: 'get' | Start: 22.72, End: 23.20
+  Index 027 | Word: 'a' | Start: 23.20, End: 23.30
+  Index 028 | Word: 'belly' | Status: failed_min_words_for_recursion
+  Index 029 | Word: 'full' | Start: 23.68, End: 23.89
+  Index 030 | Word: 'of' | Start: 23.89, End: 23.91
+  Index 031 | Word: 'beer' | Status: failed_invalid_gap_time
+  Index 032 | Word: 'My' | Status: failed_invalid_gap_time
+  Index 033 | Word: 'old' | Status: failed_invalid_gap_time
+  Index 034 | Word: 'man's' | Status: failed_invalid_gap_time
+  Index 035 | Word: 'drunker' | Start: 23.92, End: 24.30
+  Index 036 | Word: 'than' | Start: 27.36, End: 27.39
+  Index 037 | Word: 'a' | Start: 27.56, End: 27.64
+  Index 038 | Word: 'barrel' | Start: 27.64, End: 28.04
+  Index 039 | Word: 'full' | Start: 28.04, End: 28.33
+  Index 040 | Word: 'of' | Start: 28.33, End: 28.40
+  Index 041 | Word: 'monkeys' | Start: 28.41, End: 28.92
+  Index 042 | Word: 'And' | Start: 28.92, End: 29.08
+  Index 043 | Word: 'my' | Start: 29.08, End: 29.24
+  Index 044 | Word: 'old' | Start: 29.24, End: 29.46
+  Index 045 | Word: 'lady' | Start: 29.46, End: 29.71
+  Index 046 | Word: 'she' | Start: 29.99, End: 30.26
+  Index 047 | Word: 'don't' | Start: 30.26, End: 30.66
+  Index 048 | Word: 'care' | Start: 30.66, End: 31.12
+  Index 049 | Word: 'My' | Start: 32.19, End: 32.38
+  Index 050 | Word: 'sister' | Start: 32.38, End: 32.76
+  Index 051 | Word: 'looks' | Start: 32.76, End: 33.02
+  Index 052 | Word: 'cute' | Start: 33.16, End: 33.55
+  Index 053 | Word: 'in' | Start: 33.58, End: 33.87
+  Index 054 | Word: 'her' | Start: 33.90, End: 33.92
+  Index 055 | Word: 'braces' | Start: 33.92, End: 34.44
+  Index 056 | Word: 'and' | Start: 34.44, End: 34.56
+  Index 057 | Word: 'boots' | Start: 34.57, End: 35.06
+  Index 058 | Word: 'A' | Start: 35.33, End: 35.51
+  Index 059 | Word: 'handful' | Start: 35.51, End: 36.03
+  Index 060 | Word: 'of' | Start: 36.03, End: 36.08
+  Index 061 | Word: 'grease' | Start: 36.09, End: 36.62
+  Index 062 | Word: 'in' | Start: 36.62, End: 36.79
+  Index 063 | Word: 'her' | Start: 36.85, End: 36.92
+  Index 064 | Word: 'hair' | Start: 36.92, End: 37.35
+  Index 065 | Word: 'Oh,' | Status: error_transcript_gentle_desync
+  Index 066 | Word: 'don't' | Start: 65.89, End: 65.92
+  Index 067 | Word: 'give' | Start: 65.92, End: 65.95
+  Index 068 | Word: 'us' | Start: 65.95, End: 65.97
+  Index 069 | Word: 'none' | Start: 65.97, End: 66.00
+  Index 070 | Word: 'of' | Start: 66.00, End: 66.02
+  Index 071 | Word: 'your' | Start: 289.49, End: 289.52
+  Index 072 | Word: 'aggravation' | Start: 289.53, End: 289.62
+  Index 073 | Word: 'We' | Start: 289.62, End: 289.64
+  Index 074 | Word: 'had' | Start: 289.64, End: 289.67
+  Index 075 | Word: 'it' | Start: 295.16, End: 295.18
+  Index 076 | Word: 'with' | Start: 295.18, End: 295.21
+  Index 077 | Word: 'your' | Start: 295.21, End: 295.24
+  Index 078 | Word: 'discipline' | Status: failed_min_words_for_recursion
+  Index 079 | Word: 'Oh,' | Status: error_transcript_gentle_desync
+  Index 080 | Word: 'Saturday' | Status: failed_invalid_gap_time
+  Index 081 | Word: 'night's' | Status: failed_invalid_gap_time
+  Index 082 | Word: 'alright' | Start: 37.28, End: 37.33
+  Index 083 | Word: 'for' | Start: 50.26, End: 50.32
+  Index 084 | Word: 'fighting' | Start: 50.32, End: 51.02
+  Index 085 | Word: 'Get' | Start: 51.16, End: 51.25
+  Index 086 | Word: 'a' | Start: 51.25, End: 51.37
+  Index 087 | Word: 'little' | Start: 52.10, End: 52.17
+  Index 088 | Word: 'action' | Start: 52.17, End: 52.44
+  Index 089 | Word: 'in' | Start: 52.80, End: 53.28
+  Index 090 | Word: 'Get' | Start: 54.30, End: 54.44
+  Index 091 | Word: 'about' | Start: 55.15, End: 55.48
+  Index 092 | Word: 'as' | Start: 55.76, End: 55.94
+  Index 093 | Word: 'oiled' | Status: failed_min_words_for_recursion
+  Index 094 | Word: 'as' | Start: 121.84, End: 121.99
+  Index 095 | Word: 'a' | Start: 121.99, End: 122.10
+  Index 096 | Word: 'diesel' | Start: 122.49, End: 122.65
+  Index 097 | Word: 'train' | Start: 123.11, End: 123.30
+  Index 098 | Word: 'Gonna' | Start: 123.45, End: 123.59
+  Index 099 | Word: 'set' | Start: 124.06, End: 124.26
+  Index 100 | Word: 'this' | Start: 124.26, End: 124.44
+  Index 101 | Word: 'dance' | Start: 124.44, End: 124.49
+  Index 102 | Word: 'alight' | Start: 124.95, End: 125.59
+  Index 103 | Word: ''Cause' | Start: 126.60, End: 126.75
+  Index 104 | Word: 'Saturday' | Start: 126.75, End: 127.08
+  Index 105 | Word: 'night's' | Start: 127.35, End: 127.69
+  Index 106 | Word: 'the' | Start: 127.69, End: 127.71
+  Index 107 | Word: 'night' | Start: 128.06, End: 128.61
+  Index 108 | Word: 'I' | Start: 128.62, End: 129.33
+  Index 109 | Word: 'like' | Start: 129.34, End: 129.40
+  Index 110 | Word: 'Saturday' | Start: 129.65, End: 130.21
+  Index 111 | Word: 'night's' | Start: 130.21, End: 130.26
+  Index 112 | Word: 'alright' | Start: 131.12, End: 131.60
+  Index 113 | Word: 'alright' | Start: 131.73, End: 132.13
+  Index 114 | Word: 'alright,' | Status: error_transcript_gentle_desync
+  Index 115 | Word: 'ooh' | Start: 37.34, End: 37.42
+  Index 116 | Word: 'Well' | Start: 65.65, End: 66.04
+  Index 117 | Word: 'they're' | Start: 79.73, End: 79.76
+  Index 118 | Word: 'packed' | Start: 79.76, End: 79.88
+  Index 119 | Word: 'pretty' | Start: 80.17, End: 80.41
+  Index 120 | Word: 'tight' | Start: 80.61, End: 80.70
+  Index 121 | Word: 'in' | Start: 81.02, End: 81.19
+  Index 122 | Word: 'here' | Start: 81.19, End: 81.80
+  Index 123 | Word: 'tonight' | Start: 81.91, End: 82.39
+  Index 124 | Word: 'I'm' | Start: 82.72, End: 82.94
+  Index 125 | Word: 'looking' | Start: 82.94, End: 83.34
+  Index 126 | Word: 'for' | Start: 83.34, End: 83.64
+  Index 127 | Word: 'a' | Start: 83.64, End: 83.74
+  Index 128 | Word: 'dolly' | Start: 84.23, End: 84.27
+  Index 129 | Word: 'who'll' | Start: 84.27, End: 84.30
+  Index 130 | Word: 'see' | Start: 84.30, End: 84.73
+  Index 131 | Word: 'me' | Start: 85.09, End: 85.11
+  Index 132 | Word: 'right' | Start: 85.11, End: 85.61
+  Index 133 | Word: 'I' | Start: 85.80, End: 85.95
+  Index 134 | Word: 'may' | Start: 85.95, End: 86.05
+  Index 135 | Word: 'use' | Start: 86.06, End: 86.33
+  Index 136 | Word: 'a' | Start: 86.75, End: 86.76
+  Index 137 | Word: 'little' | Start: 86.76, End: 86.85
+  Index 138 | Word: 'muscle' | Start: 86.85, End: 87.32
+  Index 139 | Word: 'to' | Start: 87.34, End: 87.52
+  Index 140 | Word: 'get' | Start: 87.52, End: 87.76
+  Index 141 | Word: 'what' | Start: 87.76, End: 87.98
+  Index 142 | Word: 'I' | Start: 87.98, End: 88.17
+  Index 143 | Word: 'need' | Start: 88.21, End: 88.81
+  Index 144 | Word: 'I' | Start: 89.00, End: 89.10
+  Index 145 | Word: 'may' | Start: 89.10, End: 89.12
+  Index 146 | Word: 'sink' | Start: 89.30, End: 89.60
+  Index 147 | Word: 'a' | Start: 89.62, End: 89.71
+  Index 148 | Word: 'little' | Start: 89.71, End: 90.07
+  Index 149 | Word: 'drink' | Start: 90.07, End: 90.36
+  Index 150 | Word: 'and' | Start: 90.36, End: 90.48
+  Index 151 | Word: 'shout' | Start: 90.48, End: 90.81
+  Index 152 | Word: 'out' | Start: 90.81, End: 90.93
+  Index 153 | Word: 'she's' | Start: 90.93, End: 90.96
+  Index 154 | Word: 'with' | Start: 90.96, End: 91.03
+  Index 155 | Word: 'me' | Start: 91.03, End: 91.05
+  Index 156 | Word: 'A' | Start: 91.19, End: 91.20
+  Index 157 | Word: 'couple' | Start: 93.17, End: 93.22
+  Index 158 | Word: 'of' | Start: 93.22, End: 93.24
+  Index 159 | Word: 'the' | Start: 93.24, End: 93.26
+  Index 160 | Word: 'sounds' | Start: 93.26, End: 93.65
+  Index 161 | Word: 'that' | Start: 93.66, End: 93.92
+  Index 162 | Word: 'I' | Start: 93.92, End: 94.01
+  Index 163 | Word: 'really' | Start: 94.06, End: 94.22
+  Index 164 | Word: 'like' | Start: 94.60, End: 95.04
+  Index 165 | Word: 'Are' | Start: 95.26, End: 95.40
+  Index 166 | Word: 'the' | Start: 95.48, End: 95.58
+  Index 167 | Word: 'sounds' | Start: 95.58, End: 96.06
+  Index 168 | Word: 'of' | Start: 96.06, End: 96.24
+  Index 169 | Word: 'a' | Start: 96.24, End: 96.32
+  Index 170 | Word: 'switchblade' | Start: 96.60, End: 96.86
+  Index 171 | Word: 'and' | Start: 96.87, End: 97.04
+  Index 172 | Word: 'a' | Start: 97.46, End: 97.69
+  Index 173 | Word: 'motorbike' | Start: 97.70, End: 98.07
+  Index 174 | Word: 'I'm' | Start: 98.36, End: 98.64
+  Index 175 | Word: 'a' | Start: 98.64, End: 98.72
+  Index 176 | Word: 'juvenile' | Start: 98.72, End: 99.43
+  Index 177 | Word: 'product' | Start: 99.43, End: 99.74
+  Index 178 | Word: 'of' | Start: 99.74, End: 99.84
+  Index 179 | Word: 'the' | Start: 100.85, End: 100.87
+  Index 180 | Word: 'working' | Start: 100.87, End: 100.92
+  Index 181 | Word: 'class' | Start: 100.92, End: 101.34
+  Index 182 | Word: 'Whose' | Start: 101.66, End: 101.85
+  Index 183 | Word: 'best' | Start: 101.85, End: 102.07
+  Index 184 | Word: 'friend' | Start: 102.07, End: 102.45
+  Index 185 | Word: 'floats' | Start: 102.46, End: 102.86
+  Index 186 | Word: 'in' | Start: 123.55, End: 123.57
+  Index 187 | Word: 'the' | Start: 124.25, End: 124.39
+  Index 188 | Word: 'bottom' | Start: 124.81, End: 125.01
+  Index 189 | Word: 'of' | Start: 125.01, End: 125.03
+  Index 190 | Word: 'a' | Start: 128.61, End: 128.85
+  Index 191 | Word: 'glass,' | Status: error_transcript_gentle_desync
+  Index 192 | Word: 'oh' | Start: 41.66, End: 41.93
+  Index 193 | Word: 'Don't' | Start: 41.93, End: 42.19
+  Index 194 | Word: 'give' | Status: failed_max_depth
+  Index 195 | Word: 'us' | Status: failed_max_depth
+  Index 196 | Word: 'none' | Status: failed_max_depth
+  Index 197 | Word: 'of' | Status: failed_max_depth
+  Index 198 | Word: 'your' | Status: failed_max_depth
+  Index 199 | Word: 'aggravation' | Status: failed_max_depth
+  Index 200 | Word: 'We' | Status: failed_max_depth
+  Index 201 | Word: 'had' | Status: failed_max_depth
+  Index 202 | Word: 'it' | Status: failed_max_depth
+  Index 203 | Word: 'with' | Status: failed_max_depth
+  Index 204 | Word: 'your' | Status: failed_max_depth
+  Index 205 | Word: 'discipline' | Status: failed_max_depth
+  Index 206 | Word: 'Saturday' | Start: 42.36, End: 42.43
+  Index 207 | Word: 'night's' | Start: 42.43, End: 42.47
+  Index 208 | Word: 'alright' | Start: 42.47, End: 42.52
+  Index 209 | Word: 'for' | Start: 50.23, End: 50.30
+  Index 210 | Word: 'fighting' | Start: 50.30, End: 51.01
+  Index 211 | Word: 'Get' | Start: 51.14, End: 51.29
+  Index 212 | Word: 'a' | Start: 51.29, End: 51.32
+  Index 213 | Word: 'little' | Start: 52.09, End: 52.15
+  Index 214 | Word: 'action' | Start: 52.15, End: 52.44
+  Index 215 | Word: 'in' | Start: 52.80, End: 53.24
+  Index 216 | Word: 'Get' | Start: 54.28, End: 54.43
+  Index 217 | Word: 'about' | Start: 54.88, End: 55.18
+  Index 218 | Word: 'as' | Start: 55.42, End: 55.44
+  Index 219 | Word: 'oiled' | Start: 55.44, End: 55.47
+  Index 220 | Word: 'as' | Start: 55.75, End: 55.92
+  Index 221 | Word: 'a' | Start: 55.92, End: 56.02
+  Index 222 | Word: 'diesel' | Start: 56.05, End: 56.57
+  Index 223 | Word: 'train' | Start: 56.62, End: 57.26
+  Index 224 | Word: 'Gonna' | Start: 57.41, End: 57.55
+  Index 225 | Word: 'set' | Start: 57.97, End: 58.21
+  Index 226 | Word: 'this' | Start: 58.21, End: 58.33
+  Index 227 | Word: 'dance' | Start: 58.93, End: 58.99
+  Index 228 | Word: 'alight' | Start: 58.99, End: 59.67
+  Index 229 | Word: ''Cause' | Status: failed_min_words_for_recursion
+  Index 230 | Word: 'Saturday' | Start: 60.68, End: 61.01
+  Index 231 | Word: 'night's' | Start: 61.32, End: 61.73
+  Index 232 | Word: 'the' | Start: 61.74, End: 61.78
+  Index 233 | Word: 'night' | Start: 62.05, End: 62.59
+  Index 234 | Word: 'I' | Start: 62.59, End: 63.38
+  Index 235 | Word: 'like' | Start: 63.58, End: 63.61
+  Index 236 | Word: 'Saturday' | Start: 63.66, End: 63.93
+  Index 237 | Word: 'night's' | Start: 64.47, End: 64.90
+  Index 238 | Word: 'alright' | Start: 65.05, End: 65.63
+  Index 239 | Word: 'alright' | Start: 79.86, End: 79.91
+  Index 240 | Word: 'alright,' | Status: error_transcript_gentle_desync
+  Index 241 | Word: 'ooh' | Status: failed_min_words_for_recursion
+  Index 242 | Word: 'Oh,' | Status: error_transcript_gentle_desync
+  Index 243 | Word: 'don't' | Start: 42.08, End: 42.26
+  Index 244 | Word: 'give' | Start: 42.28, End: 42.51
+  Index 245 | Word: 'us' | Start: 42.51, End: 42.58
+  Index 246 | Word: 'none' | Start: 42.61, End: 42.87
+  Index 247 | Word: 'of' | Start: 42.87, End: 42.89
+  Index 248 | Word: 'your' | Start: 44.31, End: 44.34
+  Index 249 | Word: 'aggravation' | Start: 44.34, End: 44.68
+  Index 250 | Word: 'We' | Start: 44.84, End: 44.99
+  Index 251 | Word: 'had' | Start: 45.01, End: 45.29
+  Index 252 | Word: 'it' | Start: 45.29, End: 45.35
+  Index 253 | Word: 'with' | Start: 45.35, End: 45.38
+  Index 254 | Word: 'your' | Start: 46.70, End: 46.73
+  Index 255 | Word: 'discipline' | Start: 46.73, End: 46.94
+  Index 256 | Word: 'Saturday' | Start: 48.08, End: 48.47
+  Index 257 | Word: 'night's' | Start: 48.76, End: 49.19
+  Index 258 | Word: 'alright' | Start: 49.66, End: 49.91
+  Index 259 | Word: 'for' | Start: 50.26, End: 50.32
+  Index 260 | Word: 'fighting' | Start: 50.32, End: 51.03
+  Index 261 | Word: 'Get' | Start: 51.16, End: 51.29
+  Index 262 | Word: 'a' | Start: 51.29, End: 51.37
+  Index 263 | Word: 'little' | Start: 52.10, End: 52.16
+  Index 264 | Word: 'action' | Start: 52.16, End: 52.44
+  Index 265 | Word: 'in' | Start: 52.78, End: 53.26
+  Index 266 | Word: 'Get' | Start: 55.64, End: 55.67
+  Index 267 | Word: 'about' | Start: 55.67, End: 55.85
+  Index 268 | Word: 'as' | Start: 55.85, End: 55.94
+  Index 269 | Word: 'oiled' | Status: failed_max_depth
+  Index 270 | Word: 'as' | Status: failed_max_depth
+  Index 271 | Word: 'a' | Status: failed_max_depth
+  Index 272 | Word: 'diesel' | Status: failed_max_depth
+  Index 273 | Word: 'train' | Status: failed_max_depth
+  Index 274 | Word: 'Gonna' | Status: failed_max_depth
+  Index 275 | Word: 'set' | Status: failed_max_depth
+  Index 276 | Word: 'this' | Status: failed_max_depth
+  Index 277 | Word: 'dance' | Status: failed_max_depth
+  Index 278 | Word: 'alight' | Status: failed_max_depth
+  Index 279 | Word: ''Cause' | Status: failed_max_depth
+  Index 280 | Word: 'Saturday' | Start: 56.52, End: 56.58
+  Index 281 | Word: 'night's' | Start: 56.58, End: 56.62
+  Index 282 | Word: 'the' | Start: 56.62, End: 56.64
+  Index 283 | Word: 'night' | Start: 56.64, End: 56.67
+  Index 284 | Word: 'I' | Start: 56.74, End: 57.26
+  Index 285 | Word: 'like' | Start: 59.01, End: 59.31
+  Index 286 | Word: 'Saturday' | Start: 60.69, End: 61.09
+  Index 287 | Word: 'night's' | Start: 62.93, End: 63.12
+  Index 288 | Word: 'alright' | Start: 63.12, End: 63.41
+  Index 289 | Word: 'alright' | Start: 115.66, End: 116.06
+  Index 290 | Word: 'alright,' | Status: error_transcript_gentle_desync
+  Index 291 | Word: 'ooh' | Start: 117.10, End: 117.11
+  Index 292 | Word: 'Saturday,' | Status: error_transcript_gentle_desync
+  Index 293 | Word: 'Saturday,' | Status: error_transcript_gentle_desync
+  Index 294 | Word: 'Saturday' | Status: failed_min_words_for_recursion
+  Index 295 | Word: 'Saturday,' | Status: error_transcript_gentle_desync
+  Index 296 | Word: 'Saturday,' | Status: error_transcript_gentle_desync
+  Index 297 | Word: 'Saturday' | Status: failed_min_words_for_recursion
+  Index 298 | Word: 'Saturday,' | Status: error_transcript_gentle_desync
+  Index 299 | Word: 'Saturday,' | Status: error_transcript_gentle_desync
+  Index 300 | Word: 'Saturday' | Start: 126.85, End: 127.08
+  Index 301 | Word: 'night's' | Start: 127.35, End: 127.77
+  Index 302 | Word: 'alright' | Status: failed_min_words_for_recursion
+  Index 303 | Word: 'Saturday,' | Status: error_transcript_gentle_desync
+  Index 304 | Word: 'Saturday,' | Status: error_transcript_gentle_desync
+  Index 305 | Word: 'Saturday' | Status: failed_min_words_for_recursion
+  Index 306 | Word: 'Saturday,' | Status: error_transcript_gentle_desync
+  Index 307 | Word: 'Saturday,' | Status: error_transcript_gentle_desync
+  Index 308 | Word: 'Saturday' | Status: failed_min_words_for_recursion
+  Index 309 | Word: 'Saturday,' | Status: error_transcript_gentle_desync
+  Index 310 | Word: 'Saturday,' | Status: error_transcript_gentle_desync
+  Index 311 | Word: 'Saturday' | Start: 131.42, End: 131.48
+  Index 312 | Word: 'night's' | Start: 131.48, End: 131.58
+  Index 314 | Word: 'Saturday,' | Status: error_transcript_gentle_desync
+  Index 315 | Word: 'Saturday,' | Status: error_transcript_gentle_desync
+  Index 316 | Word: 'Saturday' | Status: failed_min_words_for_recursion
+  Index 317 | Word: 'Saturday,' | Status: error_transcript_gentle_desync
+  Index 318 | Word: 'Saturday,' | Status: error_transcript_gentle_desync
+  Index 319 | Word: 'Saturday' | Status: failed_min_words_for_recursion
+  Index 320 | Word: 'Saturday,' | Status: error_transcript_gentle_desync
+  Index 321 | Word: 'Saturday,' | Status: error_transcript_gentle_desync
+  Index 322 | Word: 'Saturday' | Start: 173.75, End: 174.14
+  Index 323 | Word: 'night's' | Start: 174.40, End: 174.75
+  Index 324 | Word: 'alright,' | Status: error_transcript_gentle_desync
+  Index 325 | Word: 'ooh' | Start: 134.45, End: 134.55
+
+Full recursive alignment results saved to: C:/Projects/gentle_files/recursivegentle/output/recursive_alignment_output.json

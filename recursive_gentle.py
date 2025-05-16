@@ -80,34 +80,17 @@ def create_temp_transcript_file(words_list, base_filename="segment_transcript"):
 
 def recursive_gentle_align(
     current_audio_path,
-    # List of dicts: [{'text': 'word', 'original_global_index': N}, ...]
     transcript_word_objects,
-    # The start time of current_audio_path relative to the original full audio
     current_segment_audio_offset,
-    recursion_depth=0
+    recursion_depth=0,
+    # Add base_temp_dir for managing sub-clips
+    base_temp_dir=None
 ):
-    """
-    Performs alignment, identifies unaligned regions, and recursively calls itself.
-
-    Args:
-        current_audio_path (str): Path to the audio file for the current segment.
-        transcript_word_objects (list): List of word objects for this segment.
-                                     Each object is a dict: {'text': str, 'original_global_index': int}
-        current_segment_audio_offset (float): Start time of current_audio_path in the original full audio's timeline.
-        recursion_depth (int): Current depth of recursion.
-
-    Returns:
-        list: A list of word alignment result objects. Each object includes:
-              'word' (str): The text of the word.
-              'original_global_index' (int): Index in the original full transcript.
-              'start' (float/None): Absolute start time in the original audio.
-              'end' (float/None): Absolute end time in the original audio.
-              'case' (str): Alignment status (e.g., 'success', 'failed_recursion').
-    """
     print(f"{'  '*recursion_depth}RecursiveGentle (Depth {recursion_depth}): Aligning '{os.path.basename(current_audio_path)}' "
           f"({len(transcript_word_objects)} words) with offset {current_segment_audio_offset:.2f}s")
 
-    final_results_for_this_segment = []
+    # This list will store the final results for this segment, including results from recursion
+    compiled_results_for_this_segment = []
 
     if not transcript_word_objects:
         print(
@@ -116,164 +99,260 @@ def recursive_gentle_align(
 
     if recursion_depth > MAX_RECURSION_DEPTH:
         print(f"{'  '*recursion_depth}Max recursion depth ({MAX_RECURSION_DEPTH}) reached. Marking remaining as failed.")
-        for i, word_obj in enumerate(transcript_word_objects):
-            final_results_for_this_segment.append({
+        for word_obj in transcript_word_objects:
+            compiled_results_for_this_segment.append({
                 'word': word_obj['text'],
                 'original_global_index': word_obj['original_global_index'],
                 'start': None, 'end': None, 'case': 'failed_max_depth'
             })
-        return final_results_for_this_segment
+        return compiled_results_for_this_segment
 
-    # 1. Create a temporary transcript file for the current segment
     current_transcript_text_list = [wo['text']
                                     for wo in transcript_word_objects]
     temp_segment_transcript_path = create_temp_transcript_file(
-        current_transcript_text_list, f"depth{recursion_depth}")
+        current_transcript_text_list,
+        # Slightly more unique name
+        f"depth{recursion_depth}_seg{hash(current_audio_path.split('.')[0])}"
+    )
 
     if not temp_segment_transcript_path:
-        print(
-            f"{'  '*recursion_depth}Failed to create temp transcript. Marking as failed.")
-        for i, word_obj in enumerate(transcript_word_objects):
-            final_results_for_this_segment.append({
-                'word': word_obj['text'],
-                'original_global_index': word_obj['original_global_index'],
+        # Handle failure (mark words and return)
+        for word_obj in transcript_word_objects:
+            compiled_results_for_this_segment.append({
+                'word': word_obj['text'], 'original_global_index': word_obj['original_global_index'],
                 'start': None, 'end': None, 'case': 'failed_temp_transcript_creation'
             })
-        return final_results_for_this_segment
+        return compiled_results_for_this_segment
 
-    # 2. Align the current audio segment with its transcript using align_with_gentle_core
-    # gentle_output_words is a list of dicts from Gentle (like the sample you provided)
     gentle_output_words = align_with_gentle_core(
         current_audio_path, temp_segment_transcript_path)
-    # Clean up the temporary transcript file
-    os.remove(temp_segment_transcript_path)
+    try:
+        os.remove(temp_segment_transcript_path)
+    except OSError as e:
+        print(f"{'  '*recursion_depth}Warning: Could not remove temp transcript {temp_segment_transcript_path}: {e}")
 
     if not gentle_output_words:
-        print(
-            f"{'  '*recursion_depth}Gentle core returned no words or failed. Marking segment as failed.")
-        # This means Gentle failed entirely for this segment. Mark all words in this segment as failed.
-        for i, word_obj in enumerate(transcript_word_objects):
-            final_results_for_this_segment.append({
-                'word': word_obj['text'],
-                'original_global_index': word_obj['original_global_index'],
-                'start': None, 'end': None, 'case': 'failed_gentle_core_call'
+        # Handle Gentle failure for the whole segment
+        for word_obj in transcript_word_objects:
+            compiled_results_for_this_segment.append({
+                'word': word_obj['text'], 'original_global_index': word_obj['original_global_index'],
+                'start': None, 'end': None, 'case': 'failed_gentle_core_call_no_output'
             })
-        return final_results_for_this_segment
+        return compiled_results_for_this_segment
 
-    # 3. Process Gentle's output for this segment
-    # We need to map Gentle's output (which is ordered by its processing of the temp_segment_transcript)
-    # back to our transcript_word_objects. Gentle's output list should correspond fairly directly
-    # to the words in the transcript it was given, including entries for unaligned words.
+    # --- Iterate through the transcript words and Gentle's output for this segment ---
+    transcript_idx = 0
+    gentle_idx = 0
+    last_successful_word_end_time_local = 0.0  # Relative to current_audio_path
 
-    # current_word_idx_in_gentle_output = 0 # To iterate through gentle_output_words
-    # current_unaligned_gap_words = [] # List of {'text': ..., 'original_global_index': ...}
-    # last_successful_word_end_time_local = 0.0 # Relative to current_audio_path
+    while transcript_idx < len(transcript_word_objects):
+        current_word_obj = transcript_word_objects[transcript_idx]
 
-    # This initial processing will just collect results and identify gaps.
-    # A more sophisticated approach will directly build the final_results_for_this_segment
-    # and make recursive calls as it iterates. Let's try a more direct approach.
+        if gentle_idx < len(gentle_output_words):
+            gentle_word_info = gentle_output_words[gentle_idx]
 
-    processed_gentle_idx = 0
-    temp_unaligned_streak = []  # Stores word_objects from transcript_word_objects
+            # Basic check: Does Gentle's word match the transcript word?
+            # Gentle's 'word' field is the word from the input transcript.
+            # Case-insensitive comparison
+            if gentle_word_info['word'].lower() == current_word_obj['text'].lower():
+                if gentle_word_info['case'] == 'success':
+                    # Successfully aligned word
+                    compiled_results_for_this_segment.append({
+                        # Use original casing
+                        'word': current_word_obj['text'],
+                        'original_global_index': current_word_obj['original_global_index'],
+                        'start': gentle_word_info['start'] + current_segment_audio_offset,
+                        'end': gentle_word_info['end'] + current_segment_audio_offset,
+                        'case': 'success'
+                    })
+                    last_successful_word_end_time_local = gentle_word_info['end']
+                    transcript_idx += 1
+                    gentle_idx += 1
+                else:
+                    # Word found by Gentle but not aligned (e.g., "not-found-in-audio")
+                    # This is the start of a potential unaligned streak
+                    unaligned_streak_transcript_objects = []
+                    streak_start_transcript_idx = transcript_idx
 
-    for i, current_transcript_word_obj in enumerate(transcript_word_objects):
-        # Try to find the corresponding word in Gentle's output.
-        # Gentle's output list should align with the input transcript word order.
-        if processed_gentle_idx < len(gentle_output_words):
-            gentle_word_info = gentle_output_words[processed_gentle_idx]
+                    # Collect the streak of unaligned words
+                    while transcript_idx < len(transcript_word_objects) and \
+                            gentle_idx < len(gentle_output_words) and \
+                            gentle_output_words[gentle_idx]['word'].lower() == transcript_word_objects[transcript_idx]['text'].lower() and \
+                            gentle_output_words[gentle_idx]['case'] != 'success':
+                        unaligned_streak_transcript_objects.append(
+                            transcript_word_objects[transcript_idx])
+                        transcript_idx += 1
+                        gentle_idx += 1  # Move gentle_idx along with transcript_idx for these failed words
 
-            # Sanity check: Does gentle_word_info['word'] roughly match current_transcript_word_obj['text']?
-            # Gentle might normalize case or punctuation. For now, we assume the order is primary.
-            # A more robust mapping might use `startOffset` if available and reliable across calls.
+                    # Determine audio boundaries for this streak
+                    gap_start_time_local = last_successful_word_end_time_local
+                    gap_end_time_local = -1.0
 
-            if gentle_word_info['case'] == 'success':
-                # --- Successful alignment ---
-                if temp_unaligned_streak:
-                    # Process the ended unaligned streak recursively
+                    if transcript_idx < len(transcript_word_objects) and \
+                       gentle_idx < len(gentle_output_words) and \
+                       gentle_output_words[gentle_idx]['word'].lower() == transcript_word_objects[transcript_idx]['text'].lower() and \
+                       gentle_output_words[gentle_idx]['case'] == 'success':
+                        # Streak is followed by a successfully aligned word
+                        gap_end_time_local = gentle_output_words[gentle_idx]['start']
+                    else:
+                        # Streak goes to the end of the current segment or Gentle output mismatch
+                        segment_duration = get_audio_duration(
+                            current_audio_path)
+                        gap_end_time_local = segment_duration if segment_duration is not None else last_successful_word_end_time_local + \
+                            10.0  # Fallback duration if ffprobe fails
+
                     print(
-                        f"{'  '*recursion_depth}---> Found unaligned streak of {len(temp_unaligned_streak)} words to process recursively.")
-                    # TODO: Define audio boundaries for this streak and make recursive call
-                    # For now, let's just mark them as 'pending_recursion' for clarity
-                    for unaligned_wo in temp_unaligned_streak:
-                        final_results_for_this_segment.append({
-                            'word': unaligned_wo['text'], 'original_global_index': unaligned_wo['original_global_index'],
-                            'start': None, 'end': None, 'case': 'placeholder_for_recursion_output'
-                        })
-                    temp_unaligned_streak = []
+                        f"{'  '*(recursion_depth+1)}Identified unaligned streak: {[wo['text'] for wo in unaligned_streak_transcript_objects]}")
+                    print(
+                        f"{'  '*(recursion_depth+1)}Audio for streak: local start={gap_start_time_local:.2f}, local end={gap_end_time_local:.2f}")
 
-                final_results_for_this_segment.append({
-                    # Use our original casing
-                    'word': current_transcript_word_obj['text'],
-                    'original_global_index': current_transcript_word_obj['original_global_index'],
-                    'start': gentle_word_info['start'] + current_segment_audio_offset,
-                    'end': gentle_word_info['end'] + current_segment_audio_offset,
-                    'case': 'success'
-                })
-                # last_successful_word_end_time_local = gentle_word_info['end']
+                    if len(unaligned_streak_transcript_objects) >= MIN_WORDS_FOR_RECURSION and \
+                       gap_end_time_local > gap_start_time_local + 0.1:  # Ensure segment has some duration
+                        # --- Attempt Recursive Call ---
+                        temp_sub_clip_filename = f"depth{recursion_depth+1}_seg{hash(current_word_obj['text'])}_{unaligned_streak_transcript_objects[0]['original_global_index']}.wav"
+
+                        # Use base_temp_dir if provided, otherwise use current dir (less clean)
+                        sub_clip_dir = base_temp_dir if base_temp_dir else os.path.dirname(
+                            current_audio_path)
+                        if base_temp_dir and not os.path.exists(base_temp_dir):
+                            os.makedirs(base_temp_dir)
+                        temp_sub_clip_path = os.path.join(
+                            sub_clip_dir, temp_sub_clip_filename)
+
+                        if extract_audio_segment(current_audio_path, gap_start_time_local, gap_end_time_local, temp_sub_clip_path):
+                            recursive_results = recursive_gentle_align(
+                                temp_sub_clip_path,
+                                unaligned_streak_transcript_objects,
+                                current_segment_audio_offset + gap_start_time_local,  # New absolute offset
+                                recursion_depth + 1,
+                                base_temp_dir  # Pass along the temp dir
+                            )
+                            compiled_results_for_this_segment.extend(
+                                recursive_results)
+                            try:
+                                os.remove(temp_sub_clip_path)
+                            except OSError as e:
+                                print(
+                                    f"{'  '*(recursion_depth+1)}Warning: Could not remove temp sub-clip {temp_sub_clip_path}: {e}")
+                        else:
+                            print(
+                                f"{'  '*(recursion_depth+1)}Failed to extract audio for streak. Marking as failed.")
+                            for wo in unaligned_streak_transcript_objects:
+                                compiled_results_for_this_segment.append({
+                                    'word': wo['text'], 'original_global_index': wo['original_global_index'],
+                                    'start': None, 'end': None, 'case': 'failed_ffmpeg_extraction'
+                                })
+                    else:
+                        # Streak too short for recursion or invalid time segment
+                        reason = 'failed_min_words_for_recursion'
+                        if not (gap_end_time_local > gap_start_time_local + 0.1):
+                            reason = 'failed_invalid_gap_time'
+                        for wo in unaligned_streak_transcript_objects:
+                            compiled_results_for_this_segment.append({
+                                'word': wo['text'], 'original_global_index': wo['original_global_index'],
+                                'start': None, 'end': None, 'case': reason
+                            })
+                    # The transcript_idx has already been advanced past the streak by the inner while loop.
+                    # gentle_idx has also been advanced.
             else:
-                # --- Word not successfully aligned by Gentle in this pass ---
-                temp_unaligned_streak.append(current_transcript_word_obj)
-            processed_gentle_idx += 1
-        else:
-            # Ran out of Gentle words but still have transcript words (should ideally not happen if Gentle processes all)
-            temp_unaligned_streak.append(current_transcript_word_obj)
+                # Mismatch between Gentle's word and transcript_word_object word.
+                # This indicates a potential desync or severe alteration by Gentle.
+                # For forced alignment, this should be rare if the transcript is accurate.
+                print(
+                    f"{'  '*recursion_depth}Warning: Mismatch or desync. Gentle: '{gentle_word_info['word']}', Transcript: '{current_word_obj['text']}'. Marking transcript word as error.")
+                compiled_results_for_this_segment.append({
+                    'word': current_word_obj['text'], 'original_global_index': current_word_obj['original_global_index'],
+                    'start': None, 'end': None, 'case': 'error_transcript_gentle_desync'
+                })
+                transcript_idx += 1
+                # We might need to advance gentle_idx as well, or attempt to re-sync.
+                # For now, advance gentle_idx to try and recover.
+                gentle_idx += 1
 
-    # Handle any trailing unaligned streak after the loop
-    if temp_unaligned_streak:
-        print(f"{'  '*recursion_depth}---> Found TRAILING unaligned streak of {len(temp_unaligned_streak)} words to process.")
-        # TODO: Define audio boundaries and recurse
-        for unaligned_wo in temp_unaligned_streak:
-            final_results_for_this_segment.append({
-                'word': unaligned_wo['text'], 'original_global_index': unaligned_wo['original_global_index'],
-                'start': None, 'end': None, 'case': 'placeholder_for_recursion_output_trailing'
-            })
+        else:  # Ran out of Gentle output words, but still have transcript words for this segment
+            print(f"{'  '*recursion_depth}Warning: Ran out of Gentle output words; transcript segment may be longer. Remaining words marked as unaligned.")
+            # This part will handle any remaining transcript words if Gentle's output was shorter.
+            # These are effectively a trailing unaligned streak.
+            trailing_streak_objects = transcript_word_objects[transcript_idx:]
+            gap_start_time_local = last_successful_word_end_time_local
+            segment_duration = get_audio_duration(current_audio_path)
+            gap_end_time_local = segment_duration if segment_duration is not None else last_successful_word_end_time_local + 10.0  # Fallback
 
-    # At this point, final_results_for_this_segment contains successful alignments
-    # from this level, and placeholders for where recursive results should go.
-    # The next step is to implement the actual recursion logic within this loop/structure.
+            if len(trailing_streak_objects) >= MIN_WORDS_FOR_RECURSION and \
+               recursion_depth < MAX_RECURSION_DEPTH and \
+               gap_end_time_local > gap_start_time_local + 0.1:
 
-    # For now, this function only does one level of processing and identifies where recursion *would* go.
-    # The actual recursive call logic is still needed.
-    print(f"{'  '*recursion_depth}Finished processing segment. Results (this level): {len(final_results_for_this_segment)} items.")
-    return final_results_for_this_segment
+                temp_sub_clip_filename = f"depth{recursion_depth+1}_seg_trailing_{hash(current_word_obj['text'])}_{trailing_streak_objects[0]['original_global_index']}.wav"
+                sub_clip_dir = base_temp_dir if base_temp_dir else os.path.dirname(
+                    current_audio_path)
+                if base_temp_dir and not os.path.exists(base_temp_dir):
+                    os.makedirs(base_temp_dir)
+                temp_sub_clip_path = os.path.join(
+                    sub_clip_dir, temp_sub_clip_filename)
+
+                if extract_audio_segment(current_audio_path, gap_start_time_local, gap_end_time_local, temp_sub_clip_path):
+                    recursive_results = recursive_gentle_align(
+                        temp_sub_clip_path,
+                        trailing_streak_objects,
+                        current_segment_audio_offset + gap_start_time_local,
+                        recursion_depth + 1,
+                        base_temp_dir
+                    )
+                    compiled_results_for_this_segment.extend(recursive_results)
+                    try:
+                        os.remove(temp_sub_clip_path)
+                    except OSError as e:
+                        print(
+                            f"{'  '*(recursion_depth+1)}Warning: Could not remove temp sub-clip {temp_sub_clip_path}: {e}")
+                else:
+                    for wo in trailing_streak_objects:
+                        compiled_results_for_this_segment.append({
+                            'word': wo['text'], 'original_global_index': wo['original_global_index'],
+                            'start': None, 'end': None, 'case': 'failed_ffmpeg_extraction_trailing'
+                        })
+            else:
+                for wo in trailing_streak_objects:
+                    compiled_results_for_this_segment.append({
+                        'word': wo['text'], 'original_global_index': wo['original_global_index'],
+                        'start': None, 'end': None, 'case': 'failed_trailing_streak_no_recursion'
+                    })
+            break  # All remaining transcript words processed as a trailing streak
+
+    return compiled_results_for_this_segment
 
 
 def process_song_recursively(original_audio_path, original_transcript_text):
-    """
-    Main wrapper to start the recursive alignment process for a song.
-    """
-    # Prepare initial transcript word objects
-    # Each word needs its original text and its index in the full transcript
     original_words = original_transcript_text.strip().split()
     if not original_words:
         print("Error: Original transcript text is empty.")
         return []
 
-    initial_transcript_word_objects = []
-    for i, word_text in enumerate(original_words):
-        initial_transcript_word_objects.append(
-            {'text': word_text, 'original_global_index': i})
+    initial_transcript_word_objects = [
+        {'text': text, 'original_global_index': i} for i, text in enumerate(original_words)]
 
-    # Make a temporary directory for all segments for this run (optional, for inspection)
-    # base_temp_dir = tempfile.mkdtemp(prefix="rec_gentle_")
-    # print(f"Using temporary directory: {base_temp_dir}")
+    # Create a single temporary directory for all sub-clips for this entire run
+    run_temp_dir = tempfile.mkdtemp(prefix="rec_gentle_run_")
+    print(f"Using temporary directory for audio segments: {run_temp_dir}")
 
-    # Initial call to the recursive function
     all_aligned_word_data = recursive_gentle_align(
         current_audio_path=original_audio_path,
         transcript_word_objects=initial_transcript_word_objects,
-        current_segment_audio_offset=0.0,  # Offset for the full audio is 0
-        recursion_depth=0
+        current_segment_audio_offset=0.0,
+        recursion_depth=0,
+        base_temp_dir=run_temp_dir  # Pass the created temp directory
     )
 
-    # The output `all_aligned_word_data` will be a flat list if recursion is fully implemented
-    # to replace placeholders. For now, it will have placeholders.
-    # We need to sort by original_global_index to ensure correct order.
+    # Sort by original_global_index to ensure correct order in the final output
     all_aligned_word_data.sort(key=lambda x: x['original_global_index'])
 
-    # Clean up temporary directory (if created)
-    # if os.path.exists(base_temp_dir):
-    #     shutil.rmtree(base_temp_dir)
+    # Clean up the temporary directory
+    try:
+        if os.path.exists(run_temp_dir):
+            shutil.rmtree(run_temp_dir)
+            print(f"Cleaned up temporary directory: {run_temp_dir}")
+    except OSError as e:
+        print(
+            f"Warning: Could not remove temporary directory {run_temp_dir}: {e}")
 
     return all_aligned_word_data
 
@@ -290,7 +369,7 @@ if __name__ == '__main__':
     # (or at least the part your JSON sample covers)
     test_audio_file = "C:/Projects/gentle_files/saturdayNight/saturday-night-vocals-only.mp3"
     test_transcript_file = "C:/Projects/gentle_files/saturdayNight/SaturdayNightsAlright-lyrics.txt"
-    output_json_recursive = "C:/Projects/gentle_files/recursivegentle/output/recursive_alignment_output.json"
+    output_json_recursive = "C:/Projects/gentle_files/recursivegentle/output/recursive_output.json"
 
     if not os.path.exists(test_audio_file):
         print(f"ERROR: Test audio file not found: {test_audio_file}")

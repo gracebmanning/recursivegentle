@@ -1,0 +1,342 @@
+Starting Recursive Gentle Aligner...
+RecursiveGentle (Depth 0): Aligning 'saturday-night-vocals-only.mp3' (326 w
+Core: Sending alignment request for saturday-night-vocals-only.mp3 and dept
+---> Found unaligned streak of 6 words to process recursively.
+---> Found unaligned streak of 1 words to process recursively.
+---> Found unaligned streak of 4 words to process recursively.
+---> Found unaligned streak of 17 words to process recursively.
+---> Found unaligned streak of 32 words to process recursively.
+---> Found unaligned streak of 126 words to process recursively.
+---> Found unaligned streak of 2 words to process recursively.
+---> Found unaligned streak of 11 words to process recursively.
+---> Found unaligned streak of 8 words to process recursively.
+---> Found unaligned streak of 9 words to process recursively.
+---> Found unaligned streak of 11 words to process recursively.
+Finished processing segment. Results (this level): 326 items.
+
+--- Final Recursive Alignment Results ---
+  Index 000 | Word: 'It's' | Start: 13.28, End: 13.49
+  Index 001 | Word: 'getting' | Start: 13.49, End: 13.54
+  Index 002 | Word: 'late' | Start: 13.54, End: 13.57
+  Index 003 | Word: 'have' | Start: 14.67, End: 14.88
+  Index 004 | Word: 'you' | Start: 15.00, End: 15.03
+  Index 005 | Word: 'seen' | Start: 15.03, End: 15.30
+  Index 006 | Word: 'my' | Start: 15.30, End: 15.35
+  Index 007 | Word: 'mates' | Start: 15.62, End: 15.78
+  Index 008 | Word: 'Ma' | Start: 16.47, End: 16.62
+  Index 009 | Word: 'tell' | Start: 16.62, End: 16.88
+  Index 010 | Word: 'me' | Start: 16.88, End: 17.00
+  Index 011 | Word: 'when' | Start: 17.01, End: 17.26
+  Index 012 | Word: 'the' | Start: 17.26, End: 17.40
+  Index 013 | Word: 'boys' | Status: placeholder_for_recursion_output
+  Index 014 | Word: 'get' | Status: placeholder_for_recursion_output
+  Index 015 | Word: 'here' | Status: placeholder_for_recursion_output
+  Index 016 | Word: 'It's' | Status: placeholder_for_recursion_output
+  Index 017 | Word: 'seven' | Status: placeholder_for_recursion_output
+  Index 018 | Word: 'o'clock' | Status: placeholder_for_recursion_output
+  Index 019 | Word: 'and' | Start: 21.02, End: 21.06
+  Index 020 | Word: 'I' | Start: 21.07, End: 21.14
+  Index 021 | Word: 'want' | Start: 21.14, End: 21.44
+  Index 022 | Word: 'to' | Start: 21.44, End: 21.56
+  Index 023 | Word: 'rock' | Start: 21.56, End: 21.73
+  Index 024 | Word: 'Want' | Start: 22.36, End: 22.64
+  Index 025 | Word: 'to' | Start: 22.64, End: 22.72
+  Index 026 | Word: 'get' | Start: 22.72, End: 23.20
+  Index 027 | Word: 'a' | Start: 23.20, End: 23.30
+  Index 028 | Word: 'belly' | Status: placeholder_for_recursion_output
+  Index 029 | Word: 'full' | Start: 23.68, End: 23.89
+  Index 030 | Word: 'of' | Start: 23.89, End: 23.91
+  Index 031 | Word: 'beer' | Status: placeholder_for_recursion_output
+  Index 032 | Word: 'My' | Status: placeholder_for_recursion_output
+  Index 033 | Word: 'old' | Status: placeholder_for_recursion_output
+  Index 034 | Word: 'man's' | Status: placeholder_for_recursion_output
+  Index 035 | Word: 'drunker' | Start: 23.92, End: 24.30
+  Index 036 | Word: 'than' | Start: 27.36, End: 27.39
+  Index 037 | Word: 'a' | Start: 27.56, End: 27.64
+  Index 038 | Word: 'barrel' | Start: 27.64, End: 28.04
+  Index 039 | Word: 'full' | Start: 28.04, End: 28.33
+  Index 040 | Word: 'of' | Start: 28.33, End: 28.40
+  Index 041 | Word: 'monkeys' | Start: 28.41, End: 28.92
+  Index 042 | Word: 'And' | Start: 28.92, End: 29.08
+  Index 043 | Word: 'my' | Start: 29.08, End: 29.24
+  Index 044 | Word: 'old' | Start: 29.24, End: 29.46
+  Index 045 | Word: 'lady' | Start: 29.46, End: 29.71
+  Index 046 | Word: 'she' | Start: 29.99, End: 30.26
+  Index 047 | Word: 'don't' | Start: 30.26, End: 30.66
+  Index 048 | Word: 'care' | Start: 30.66, End: 31.12
+  Index 049 | Word: 'My' | Start: 32.19, End: 32.38
+  Index 050 | Word: 'sister' | Start: 32.38, End: 32.76
+  Index 051 | Word: 'looks' | Start: 32.76, End: 33.02
+  Index 052 | Word: 'cute' | Start: 33.16, End: 33.55
+  Index 053 | Word: 'in' | Start: 33.58, End: 33.87
+  Index 054 | Word: 'her' | Start: 33.90, End: 33.92
+  Index 055 | Word: 'braces' | Start: 33.92, End: 34.44
+  Index 056 | Word: 'and' | Start: 34.44, End: 34.56
+  Index 057 | Word: 'boots' | Start: 34.57, End: 35.06
+  Index 058 | Word: 'A' | Start: 35.33, End: 35.51
+  Index 059 | Word: 'handful' | Start: 35.51, End: 36.03
+  Index 060 | Word: 'of' | Start: 36.03, End: 36.08
+  Index 061 | Word: 'grease' | Start: 36.09, End: 36.62
+  Index 062 | Word: 'in' | Start: 36.62, End: 36.79
+  Index 063 | Word: 'her' | Start: 36.85, End: 36.92
+  Index 064 | Word: 'hair' | Start: 36.92, End: 37.35
+  Index 065 | Word: 'Oh,' | Status: placeholder_for_recursion_output
+  Index 066 | Word: 'don't' | Status: placeholder_for_recursion_output
+  Index 067 | Word: 'give' | Status: placeholder_for_recursion_output
+  Index 068 | Word: 'us' | Status: placeholder_for_recursion_output
+  Index 069 | Word: 'none' | Status: placeholder_for_recursion_output
+  Index 070 | Word: 'of' | Status: placeholder_for_recursion_output
+  Index 071 | Word: 'your' | Status: placeholder_for_recursion_output
+  Index 072 | Word: 'aggravation' | Status: placeholder_for_recursion_outpu
+  Index 073 | Word: 'We' | Status: placeholder_for_recursion_output
+  Index 074 | Word: 'had' | Status: placeholder_for_recursion_output
+  Index 075 | Word: 'it' | Status: placeholder_for_recursion_output
+  Index 076 | Word: 'with' | Status: placeholder_for_recursion_output
+  Index 077 | Word: 'your' | Status: placeholder_for_recursion_output
+  Index 078 | Word: 'discipline' | Status: placeholder_for_recursion_output
+  Index 079 | Word: 'Oh,' | Status: placeholder_for_recursion_output
+  Index 080 | Word: 'Saturday' | Status: placeholder_for_recursion_output
+  Index 081 | Word: 'night's' | Status: placeholder_for_recursion_output
+  Index 082 | Word: 'alright' | Start: 37.28, End: 37.33
+  Index 083 | Word: 'for' | Status: placeholder_for_recursion_output
+  Index 084 | Word: 'fighting' | Status: placeholder_for_recursion_output
+  Index 085 | Word: 'Get' | Status: placeholder_for_recursion_output
+  Index 086 | Word: 'a' | Status: placeholder_for_recursion_output
+  Index 087 | Word: 'little' | Status: placeholder_for_recursion_output
+  Index 088 | Word: 'action' | Status: placeholder_for_recursion_output
+  Index 089 | Word: 'in' | Status: placeholder_for_recursion_output
+  Index 090 | Word: 'Get' | Status: placeholder_for_recursion_output
+  Index 091 | Word: 'about' | Status: placeholder_for_recursion_output
+  Index 092 | Word: 'as' | Status: placeholder_for_recursion_output
+  Index 093 | Word: 'oiled' | Status: placeholder_for_recursion_output
+  Index 094 | Word: 'as' | Status: placeholder_for_recursion_output
+  Index 095 | Word: 'a' | Status: placeholder_for_recursion_output
+  Index 096 | Word: 'diesel' | Status: placeholder_for_recursion_output
+  Index 097 | Word: 'train' | Status: placeholder_for_recursion_output
+  Index 098 | Word: 'Gonna' | Status: placeholder_for_recursion_output
+  Index 099 | Word: 'set' | Status: placeholder_for_recursion_output
+  Index 100 | Word: 'this' | Status: placeholder_for_recursion_output
+  Index 101 | Word: 'dance' | Status: placeholder_for_recursion_output
+  Index 102 | Word: 'alight' | Status: placeholder_for_recursion_output
+  Index 103 | Word: ''Cause' | Status: placeholder_for_recursion_output
+  Index 104 | Word: 'Saturday' | Status: placeholder_for_recursion_output
+  Index 105 | Word: 'night's' | Status: placeholder_for_recursion_output
+  Index 106 | Word: 'the' | Status: placeholder_for_recursion_output
+  Index 107 | Word: 'night' | Status: placeholder_for_recursion_output
+  Index 108 | Word: 'I' | Status: placeholder_for_recursion_output
+  Index 109 | Word: 'like' | Status: placeholder_for_recursion_output
+  Index 110 | Word: 'Saturday' | Status: placeholder_for_recursion_output
+  Index 111 | Word: 'night's' | Status: placeholder_for_recursion_output
+  Index 112 | Word: 'alright' | Status: placeholder_for_recursion_output
+  Index 113 | Word: 'alright' | Status: placeholder_for_recursion_output
+  Index 114 | Word: 'alright,' | Status: placeholder_for_recursion_output
+  Index 115 | Word: 'ooh' | Start: 37.34, End: 37.42
+  Index 116 | Word: 'Well' | Status: placeholder_for_recursion_output
+  Index 117 | Word: 'they're' | Status: placeholder_for_recursion_output
+  Index 118 | Word: 'packed' | Status: placeholder_for_recursion_output
+  Index 119 | Word: 'pretty' | Status: placeholder_for_recursion_output
+  Index 120 | Word: 'tight' | Status: placeholder_for_recursion_output
+  Index 121 | Word: 'in' | Status: placeholder_for_recursion_output
+  Index 122 | Word: 'here' | Status: placeholder_for_recursion_output
+  Index 123 | Word: 'tonight' | Status: placeholder_for_recursion_output
+  Index 124 | Word: 'I'm' | Status: placeholder_for_recursion_output
+  Index 125 | Word: 'looking' | Status: placeholder_for_recursion_output
+  Index 126 | Word: 'for' | Status: placeholder_for_recursion_output
+  Index 127 | Word: 'a' | Status: placeholder_for_recursion_output
+  Index 128 | Word: 'dolly' | Status: placeholder_for_recursion_output
+  Index 129 | Word: 'who'll' | Status: placeholder_for_recursion_output
+  Index 130 | Word: 'see' | Status: placeholder_for_recursion_output
+  Index 131 | Word: 'me' | Status: placeholder_for_recursion_output
+  Index 132 | Word: 'right' | Status: placeholder_for_recursion_output
+  Index 133 | Word: 'I' | Status: placeholder_for_recursion_output
+  Index 134 | Word: 'may' | Status: placeholder_for_recursion_output
+  Index 135 | Word: 'use' | Status: placeholder_for_recursion_output
+  Index 136 | Word: 'a' | Status: placeholder_for_recursion_output
+  Index 137 | Word: 'little' | Status: placeholder_for_recursion_output
+  Index 138 | Word: 'muscle' | Status: placeholder_for_recursion_output
+  Index 139 | Word: 'to' | Status: placeholder_for_recursion_output
+  Index 140 | Word: 'get' | Status: placeholder_for_recursion_output
+  Index 141 | Word: 'what' | Status: placeholder_for_recursion_output
+  Index 142 | Word: 'I' | Status: placeholder_for_recursion_output
+  Index 143 | Word: 'need' | Status: placeholder_for_recursion_output
+  Index 144 | Word: 'I' | Status: placeholder_for_recursion_output
+  Index 145 | Word: 'may' | Status: placeholder_for_recursion_output
+  Index 146 | Word: 'sink' | Status: placeholder_for_recursion_output
+  Index 147 | Word: 'a' | Status: placeholder_for_recursion_output
+  Index 148 | Word: 'little' | Status: placeholder_for_recursion_output
+  Index 149 | Word: 'drink' | Status: placeholder_for_recursion_output
+  Index 150 | Word: 'and' | Status: placeholder_for_recursion_output
+  Index 151 | Word: 'shout' | Status: placeholder_for_recursion_output
+  Index 152 | Word: 'out' | Status: placeholder_for_recursion_output
+  Index 153 | Word: 'she's' | Status: placeholder_for_recursion_output
+  Index 154 | Word: 'with' | Status: placeholder_for_recursion_output
+  Index 155 | Word: 'me' | Status: placeholder_for_recursion_output
+  Index 156 | Word: 'A' | Status: placeholder_for_recursion_output
+  Index 157 | Word: 'couple' | Status: placeholder_for_recursion_output
+  Index 158 | Word: 'of' | Status: placeholder_for_recursion_output
+  Index 159 | Word: 'the' | Status: placeholder_for_recursion_output
+  Index 160 | Word: 'sounds' | Status: placeholder_for_recursion_output
+  Index 161 | Word: 'that' | Status: placeholder_for_recursion_output
+  Index 162 | Word: 'I' | Status: placeholder_for_recursion_output
+  Index 163 | Word: 'really' | Status: placeholder_for_recursion_output
+  Index 164 | Word: 'like' | Status: placeholder_for_recursion_output
+  Index 165 | Word: 'Are' | Status: placeholder_for_recursion_output
+  Index 166 | Word: 'the' | Status: placeholder_for_recursion_output
+  Index 167 | Word: 'sounds' | Status: placeholder_for_recursion_output
+  Index 168 | Word: 'of' | Status: placeholder_for_recursion_output
+  Index 169 | Word: 'a' | Status: placeholder_for_recursion_output
+  Index 170 | Word: 'switchblade' | Status: placeholder_for_recursion_outpu
+  Index 171 | Word: 'and' | Status: placeholder_for_recursion_output
+  Index 172 | Word: 'a' | Status: placeholder_for_recursion_output
+  Index 173 | Word: 'motorbike' | Status: placeholder_for_recursion_output
+  Index 174 | Word: 'I'm' | Status: placeholder_for_recursion_output
+  Index 175 | Word: 'a' | Status: placeholder_for_recursion_output
+  Index 176 | Word: 'juvenile' | Status: placeholder_for_recursion_output
+  Index 177 | Word: 'product' | Status: placeholder_for_recursion_output
+  Index 178 | Word: 'of' | Status: placeholder_for_recursion_output
+  Index 179 | Word: 'the' | Status: placeholder_for_recursion_output
+  Index 180 | Word: 'working' | Status: placeholder_for_recursion_output
+  Index 181 | Word: 'class' | Status: placeholder_for_recursion_output
+  Index 182 | Word: 'Whose' | Status: placeholder_for_recursion_output
+  Index 183 | Word: 'best' | Status: placeholder_for_recursion_output
+  Index 184 | Word: 'friend' | Status: placeholder_for_recursion_output
+  Index 185 | Word: 'floats' | Status: placeholder_for_recursion_output
+  Index 186 | Word: 'in' | Status: placeholder_for_recursion_output
+  Index 187 | Word: 'the' | Status: placeholder_for_recursion_output
+  Index 188 | Word: 'bottom' | Status: placeholder_for_recursion_output
+  Index 189 | Word: 'of' | Status: placeholder_for_recursion_output
+  Index 190 | Word: 'a' | Status: placeholder_for_recursion_output
+  Index 191 | Word: 'glass,' | Status: placeholder_for_recursion_output
+  Index 192 | Word: 'oh' | Status: placeholder_for_recursion_output
+  Index 193 | Word: 'Don't' | Status: placeholder_for_recursion_output
+  Index 194 | Word: 'give' | Status: placeholder_for_recursion_output
+  Index 195 | Word: 'us' | Status: placeholder_for_recursion_output
+  Index 196 | Word: 'none' | Status: placeholder_for_recursion_output
+  Index 197 | Word: 'of' | Status: placeholder_for_recursion_output
+  Index 198 | Word: 'your' | Status: placeholder_for_recursion_output
+  Index 199 | Word: 'aggravation' | Status: placeholder_for_recursion_outpu
+  Index 200 | Word: 'We' | Status: placeholder_for_recursion_output
+  Index 201 | Word: 'had' | Status: placeholder_for_recursion_output
+  Index 202 | Word: 'it' | Status: placeholder_for_recursion_output
+  Index 203 | Word: 'with' | Status: placeholder_for_recursion_output
+  Index 204 | Word: 'your' | Status: placeholder_for_recursion_output
+  Index 205 | Word: 'discipline' | Status: placeholder_for_recursion_output
+  Index 206 | Word: 'Saturday' | Status: placeholder_for_recursion_output
+  Index 207 | Word: 'night's' | Status: placeholder_for_recursion_output
+  Index 208 | Word: 'alright' | Status: placeholder_for_recursion_output
+  Index 209 | Word: 'for' | Status: placeholder_for_recursion_output
+  Index 210 | Word: 'fighting' | Status: placeholder_for_recursion_output
+  Index 211 | Word: 'Get' | Status: placeholder_for_recursion_output
+  Index 212 | Word: 'a' | Status: placeholder_for_recursion_output
+  Index 213 | Word: 'little' | Status: placeholder_for_recursion_output
+  Index 214 | Word: 'action' | Status: placeholder_for_recursion_output
+  Index 215 | Word: 'in' | Status: placeholder_for_recursion_output
+  Index 216 | Word: 'Get' | Status: placeholder_for_recursion_output
+  Index 217 | Word: 'about' | Status: placeholder_for_recursion_output
+  Index 218 | Word: 'as' | Status: placeholder_for_recursion_output
+  Index 219 | Word: 'oiled' | Status: placeholder_for_recursion_output
+  Index 220 | Word: 'as' | Status: placeholder_for_recursion_output
+  Index 221 | Word: 'a' | Status: placeholder_for_recursion_output
+  Index 222 | Word: 'diesel' | Status: placeholder_for_recursion_output
+  Index 223 | Word: 'train' | Status: placeholder_for_recursion_output
+  Index 224 | Word: 'Gonna' | Status: placeholder_for_recursion_output
+  Index 225 | Word: 'set' | Status: placeholder_for_recursion_output
+  Index 226 | Word: 'this' | Status: placeholder_for_recursion_output
+  Index 227 | Word: 'dance' | Status: placeholder_for_recursion_output
+  Index 228 | Word: 'alight' | Status: placeholder_for_recursion_output
+  Index 229 | Word: ''Cause' | Status: placeholder_for_recursion_output
+  Index 230 | Word: 'Saturday' | Status: placeholder_for_recursion_output
+  Index 231 | Word: 'night's' | Status: placeholder_for_recursion_output
+  Index 232 | Word: 'the' | Status: placeholder_for_recursion_output
+  Index 233 | Word: 'night' | Status: placeholder_for_recursion_output
+  Index 234 | Word: 'I' | Status: placeholder_for_recursion_output
+  Index 235 | Word: 'like' | Status: placeholder_for_recursion_output
+  Index 236 | Word: 'Saturday' | Status: placeholder_for_recursion_output
+  Index 237 | Word: 'night's' | Status: placeholder_for_recursion_output
+  Index 238 | Word: 'alright' | Status: placeholder_for_recursion_output
+  Index 239 | Word: 'alright' | Status: placeholder_for_recursion_output
+  Index 240 | Word: 'alright,' | Status: placeholder_for_recursion_output
+  Index 241 | Word: 'ooh' | Status: placeholder_for_recursion_output
+  Index 242 | Word: 'Oh,' | Start: 41.31, End: 41.96
+  Index 243 | Word: 'don't' | Start: 42.08, End: 42.26
+  Index 244 | Word: 'give' | Start: 42.28, End: 42.51
+  Index 245 | Word: 'us' | Start: 42.51, End: 42.58
+  Index 246 | Word: 'none' | Start: 42.61, End: 42.87
+  Index 247 | Word: 'of' | Start: 42.87, End: 42.89
+  Index 248 | Word: 'your' | Start: 44.31, End: 44.34
+  Index 249 | Word: 'aggravation' | Start: 44.34, End: 44.68
+  Index 250 | Word: 'We' | Start: 44.84, End: 44.99
+  Index 251 | Word: 'had' | Start: 45.01, End: 45.29
+  Index 252 | Word: 'it' | Start: 45.29, End: 45.35
+  Index 253 | Word: 'with' | Start: 45.35, End: 45.38
+  Index 254 | Word: 'your' | Status: placeholder_for_recursion_output
+  Index 255 | Word: 'discipline' | Status: placeholder_for_recursion_output
+  Index 256 | Word: 'Saturday' | Start: 48.08, End: 48.47
+  Index 257 | Word: 'night's' | Start: 48.76, End: 49.19
+  Index 258 | Word: 'alright' | Start: 49.66, End: 49.91
+  Index 259 | Word: 'for' | Start: 50.26, End: 50.32
+  Index 260 | Word: 'fighting' | Start: 50.32, End: 51.03
+  Index 261 | Word: 'Get' | Start: 51.16, End: 51.29
+  Index 262 | Word: 'a' | Start: 51.29, End: 51.37
+  Index 263 | Word: 'little' | Start: 52.10, End: 52.16
+  Index 264 | Word: 'action' | Start: 52.16, End: 52.44
+  Index 265 | Word: 'in' | Start: 52.78, End: 53.26
+  Index 266 | Word: 'Get' | Start: 55.64, End: 55.67
+  Index 267 | Word: 'about' | Start: 55.67, End: 55.85
+  Index 268 | Word: 'as' | Start: 55.85, End: 55.94
+  Index 269 | Word: 'oiled' | Status: placeholder_for_recursion_output
+  Index 270 | Word: 'as' | Status: placeholder_for_recursion_output
+  Index 271 | Word: 'a' | Status: placeholder_for_recursion_output
+  Index 272 | Word: 'diesel' | Status: placeholder_for_recursion_output
+  Index 273 | Word: 'train' | Status: placeholder_for_recursion_output
+  Index 274 | Word: 'Gonna' | Status: placeholder_for_recursion_output
+  Index 275 | Word: 'set' | Status: placeholder_for_recursion_output
+  Index 276 | Word: 'this' | Status: placeholder_for_recursion_output
+  Index 277 | Word: 'dance' | Status: placeholder_for_recursion_output
+  Index 278 | Word: 'alight' | Status: placeholder_for_recursion_output
+  Index 279 | Word: ''Cause' | Status: placeholder_for_recursion_output
+  Index 280 | Word: 'Saturday' | Start: 56.52, End: 56.58
+  Index 281 | Word: 'night's' | Start: 56.58, End: 56.62
+  Index 282 | Word: 'the' | Start: 56.62, End: 56.64
+  Index 283 | Word: 'night' | Start: 56.64, End: 56.67
+  Index 284 | Word: 'I' | Start: 56.74, End: 57.26
+  Index 285 | Word: 'like' | Start: 59.01, End: 59.31
+  Index 286 | Word: 'Saturday' | Start: 60.69, End: 61.09
+  Index 287 | Word: 'night's' | Start: 62.93, End: 63.12
+  Index 288 | Word: 'alright' | Start: 63.12, End: 63.41
+  Index 289 | Word: 'alright' | Start: 115.66, End: 116.06
+  Index 290 | Word: 'alright,' | Start: 116.56, End: 116.87
+  Index 291 | Word: 'ooh' | Start: 117.10, End: 117.11
+  Index 292 | Word: 'Saturday,' | Status: placeholder_for_recursion_output
+  Index 293 | Word: 'Saturday,' | Status: placeholder_for_recursion_output
+  Index 294 | Word: 'Saturday' | Status: placeholder_for_recursion_output
+  Index 295 | Word: 'Saturday,' | Status: placeholder_for_recursion_output
+  Index 296 | Word: 'Saturday,' | Status: placeholder_for_recursion_output
+  Index 297 | Word: 'Saturday' | Status: placeholder_for_recursion_output
+  Index 298 | Word: 'Saturday,' | Status: placeholder_for_recursion_output
+  Index 299 | Word: 'Saturday,' | Status: placeholder_for_recursion_output
+  Index 300 | Word: 'Saturday' | Start: 126.85, End: 127.08
+  Index 301 | Word: 'night's' | Start: 127.35, End: 127.77
+  Index 302 | Word: 'alright' | Status: placeholder_for_recursion_output
+  Index 303 | Word: 'Saturday,' | Status: placeholder_for_recursion_output
+  Index 304 | Word: 'Saturday,' | Status: placeholder_for_recursion_output
+  Index 305 | Word: 'Saturday' | Status: placeholder_for_recursion_output
+  Index 306 | Word: 'Saturday,' | Status: placeholder_for_recursion_output
+  Index 307 | Word: 'Saturday,' | Status: placeholder_for_recursion_output
+  Index 308 | Word: 'Saturday' | Status: placeholder_for_recursion_output
+  Index 309 | Word: 'Saturday,' | Status: placeholder_for_recursion_output
+  Index 310 | Word: 'Saturday,' | Status: placeholder_for_recursion_output
+  Index 311 | Word: 'Saturday' | Start: 131.42, End: 131.48
+  Index 312 | Word: 'night's' | Start: 131.48, End: 131.58
+  Index 313 | Word: 'alright' | Start: 131.75, End: 132.14
+  Index 314 | Word: 'Saturday,' | Status: placeholder_for_recursion_output
+  Index 315 | Word: 'Saturday,' | Status: placeholder_for_recursion_output
+  Index 316 | Word: 'Saturday' | Status: placeholder_for_recursion_output
+  Index 317 | Word: 'Saturday,' | Status: placeholder_for_recursion_output
+  Index 318 | Word: 'Saturday,' | Status: placeholder_for_recursion_output
+  Index 319 | Word: 'Saturday' | Status: placeholder_for_recursion_output
+  Index 320 | Word: 'Saturday,' | Status: placeholder_for_recursion_output
+  Index 321 | Word: 'Saturday,' | Status: placeholder_for_recursion_output
+  Index 322 | Word: 'Saturday' | Status: placeholder_for_recursion_output
+  Index 323 | Word: 'night's' | Status: placeholder_for_recursion_output
+  Index 324 | Word: 'alright,' | Status: placeholder_for_recursion_output

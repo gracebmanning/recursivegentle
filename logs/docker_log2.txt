@@ -1,0 +1,134 @@
+2025-05-15 17:01:41.713 | INFO:root:1/17
+2025-05-15 17:01:41.946 | INFO:root:2/17
+2025-05-15 17:01:42.287 | INFO:root:3/17
+2025-05-15 17:01:42.446 | INFO:root:4/17
+2025-05-15 17:01:43.363 | INFO:root:5/17
+2025-05-15 17:01:43.487 | INFO:root:6/17
+2025-05-15 17:01:43.887 | INFO:root:7/17
+2025-05-15 17:01:44.310 | INFO:root:8/17
+2025-05-15 17:02:00.845 | INFO:root:9/17
+2025-05-15 17:02:03.014 | INFO:root:10/17
+2025-05-15 17:02:03.125 | INFO:root:11/17
+2025-05-15 17:02:03.382 | INFO:root:12/17
+2025-05-15 17:02:03.457 | INFO:root:13/17
+2025-05-15 17:02:04.055 | INFO:root:14/17
+2025-05-15 17:02:04.198 | INFO:root:15/17
+2025-05-15 17:02:04.250 | INFO:root:16/17
+2025-05-15 17:02:05.928 | INFO:root:17/17
+2025-05-15 17:02:05.943 | INFO:root:262 unaligned words (of 326)
+2025-05-15 17:02:39.388 | INFO:root:after 2nd pass: 227 unaligned words (of 326)
+2025-05-15 17:02:39.580 | INFO:root:done with transcription.
+2025-05-15 17:02:49.530 | INFO:root:1/1
+2025-05-15 17:02:49.532 | INFO:root:0 unaligned words (of 6)
+2025-05-15 17:02:49.554 | INFO:root:after 2nd pass: 0 unaligned words (of 6)
+2025-05-15 17:02:49.559 | INFO:root:done with transcription.
+2025-05-15 17:03:15.012 | INFO:root:1/15
+2025-05-15 17:03:15.023 | INFO:root:2/15
+2025-05-15 17:03:15.130 | INFO:root:3/15
+2025-05-15 17:03:15.206 | INFO:root:4/15
+2025-05-15 17:03:15.217 | INFO:root:5/15
+2025-05-15 17:03:15.273 | INFO:root:6/15
+2025-05-15 17:03:15.529 | INFO:root:7/15
+2025-05-15 17:03:15.642 | INFO:root:8/15
+2025-05-15 17:03:21.647 | INFO:root:9/15
+2025-05-15 17:03:32.219 | INFO:root:10/15
+2025-05-15 17:03:32.424 | INFO:root:11/15
+2025-05-15 17:03:32.540 | INFO:root:12/15
+2025-05-15 17:03:32.567 | INFO:root:13/15
+2025-05-15 17:03:32.796 | INFO:root:14/15
+2025-05-15 17:03:32.816 | INFO:root:15/15
+2025-05-15 17:03:32.824 | INFO:root:7 unaligned words (of 13)
+2025-05-15 17:03:38.119 | INFO:root:after 2nd pass: 1 unaligned words (of 13)
+2025-05-15 17:03:38.127 | INFO:root:done with transcription.
+2025-05-15 17:04:03.029 | INFO:root:1/15
+2025-05-15 17:04:03.121 | INFO:root:2/15
+2025-05-15 17:04:03.266 | INFO:root:3/15
+2025-05-15 17:04:03.372 | INFO:root:4/15
+2025-05-15 17:04:03.768 | INFO:root:5/15
+2025-05-15 17:04:03.801 | INFO:root:6/15
+2025-05-15 17:04:04.099 | INFO:root:7/15
+2025-05-15 17:04:04.109 | INFO:root:8/15
+2025-05-15 17:04:09.834 | INFO:root:9/15
+2025-05-15 17:04:19.653 | INFO:root:10/15
+2025-05-15 17:04:19.829 | INFO:root:11/15
+2025-05-15 17:04:19.929 | INFO:root:12/15
+2025-05-15 17:04:19.982 | INFO:root:13/15
+2025-05-15 17:04:20.005 | INFO:root:14/15
+2025-05-15 17:04:20.027 | INFO:root:15/15
+2025-05-15 17:04:20.033 | INFO:root:1 unaligned words (of 31)
+2025-05-15 17:04:20.051 | INFO:root:after 2nd pass: 1 unaligned words (of 31)
+2025-05-15 17:04:20.069 | INFO:root:done with transcription.
+2025-05-15 17:04:47.186 | INFO:root:1/15
+2025-05-15 17:04:47.310 | INFO:root:2/15
+2025-05-15 17:04:47.586 | INFO:root:3/15
+2025-05-15 17:04:47.691 | INFO:root:4/15
+2025-05-15 17:04:47.743 | INFO:root:5/15
+2025-05-15 17:04:47.850 | INFO:root:6/15
+2025-05-15 17:04:47.869 | INFO:root:7/15
+2025-05-15 17:04:48.055 | INFO:root:8/15
+2025-05-15 17:04:53.749 | INFO:root:9/15
+2025-05-15 17:05:04.561 | INFO:root:10/15
+2025-05-15 17:05:04.620 | INFO:root:11/15
+2025-05-15 17:05:04.651 | INFO:root:12/15
+2025-05-15 17:05:04.860 | INFO:root:13/15
+2025-05-15 17:05:05.231 | INFO:root:14/15
+2025-05-15 17:05:05.290 | INFO:root:15/15
+2025-05-15 17:05:05.295 | INFO:root:30 unaligned words (of 75)
+2025-05-15 17:05:20.529 | INFO:root:after 2nd pass: 0 unaligned words (of 75)
+2025-05-15 17:05:20.564 | INFO:root:done with transcription.
+2025-05-15 17:05:46.875 | INFO:root:1/15
+2025-05-15 17:05:46.896 | INFO:root:2/15
+2025-05-15 17:05:46.947 | INFO:root:3/15
+2025-05-15 17:05:46.974 | INFO:root:4/15
+2025-05-15 17:05:46.995 | INFO:root:5/15
+2025-05-15 17:05:47.080 | INFO:root:6/15
+2025-05-15 17:05:47.317 | INFO:root:7/15
+2025-05-15 17:05:47.390 | INFO:root:8/15
+2025-05-15 17:05:52.758 | INFO:root:9/15
+2025-05-15 17:06:02.706 | INFO:root:10/15
+2025-05-15 17:06:02.723 | INFO:root:11/15
+2025-05-15 17:06:02.805 | INFO:root:12/15
+2025-05-15 17:06:02.922 | INFO:root:13/15
+2025-05-15 17:06:02.945 | INFO:root:14/15
+2025-05-15 17:06:03.333 | INFO:root:15/15
+2025-05-15 17:06:03.338 | INFO:root:35 unaligned words (of 48)
+2025-05-15 17:06:14.696 | INFO:root:after 2nd pass: 17 unaligned words (of 48)
+2025-05-15 17:06:14.721 | INFO:root:done with transcription.
+2025-05-15 17:06:15.928 | INFO:root:Short segment - ignored 0
+2025-05-15 17:06:15.929 | INFO:root:1/1
+2025-05-15 17:06:15.930 | INFO:root:12 unaligned words (of 12)
+2025-05-15 17:06:15.965 | INFO:root:after 2nd pass: 12 unaligned words (of 12)
+2025-05-15 17:06:15.967 | INFO:root:done with transcription.
+2025-05-15 17:06:20.156 | INFO:root:1/1
+2025-05-15 17:06:20.157 | INFO:root:0 unaligned words (of 2)
+2025-05-15 17:06:20.189 | INFO:root:after 2nd pass: 0 unaligned words (of 2)
+2025-05-15 17:06:20.193 | INFO:root:done with transcription.
+2025-05-15 17:06:24.691 | INFO:root:1/1
+2025-05-15 17:06:24.692 | INFO:root:1 unaligned words (of 3)
+2025-05-15 17:06:26.624 | INFO:root:after 2nd pass: 1 unaligned words (of 3)
+2025-05-15 17:06:26.627 | INFO:root:done with transcription.
+2025-05-15 17:06:31.685 | INFO:root:1/1
+2025-05-15 17:06:31.687 | INFO:root:0 unaligned words (of 2)
+2025-05-15 17:06:31.714 | INFO:root:after 2nd pass: 0 unaligned words (of 2)
+2025-05-15 17:06:31.720 | INFO:root:done with transcription.
+2025-05-15 17:06:35.170 | INFO:root:1/1
+2025-05-15 17:06:35.171 | INFO:root:11 unaligned words (of 11)
+2025-05-15 17:06:35.195 | INFO:root:after 2nd pass: 11 unaligned words (of 11)
+2025-05-15 17:06:35.198 | INFO:root:done with transcription.
+2025-05-15 17:06:38.849 | INFO:root:1/1
+2025-05-15 17:06:38.851 | INFO:root:11 unaligned words (of 11)
+2025-05-15 17:06:38.865 | INFO:root:after 2nd pass: 11 unaligned words (of 11)
+2025-05-15 17:06:38.866 | INFO:root:done with transcription.
+2025-05-15 17:07:06.871 | INFO:root:1/10
+2025-05-15 17:07:06.930 | INFO:root:2/10
+2025-05-15 17:07:07.015 | INFO:root:3/10
+2025-05-15 17:07:07.094 | INFO:root:4/10
+2025-05-15 17:07:07.631 | INFO:root:5/10
+2025-05-15 17:07:07.716 | INFO:root:6/10
+2025-05-15 17:07:07.788 | INFO:root:7/10
+2025-05-15 17:07:07.813 | INFO:root:8/10
+2025-05-15 17:07:08.137 | INFO:root:9/10
+2025-05-15 17:07:17.955 | INFO:root:10/10
+2025-05-15 17:07:17.972 | INFO:root:0 unaligned words (of 2)
+2025-05-15 17:07:17.986 | INFO:root:after 2nd pass: 0 unaligned words (of 2)
+2025-05-15 17:07:17.993 | INFO:root:done with transcription.
