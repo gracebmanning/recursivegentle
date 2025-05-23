@@ -1,0 +1,82 @@
+Starting Recursive Gentle Aligner...
+Using temporary directory for audio segments: C:\Users\graci\AppData\Local\Temp\rec_gentle_run_o617dnmq
+RecursiveGentle (Depth 0): Aligning 'saturday-night-vocals-only.mp3' (326 words) with offset 0.00s
+Core: Sending alignment request for saturday-night-vocals-only.mp3 and depth0_seg-7428489189567643246_ri7mut3p.txt...
+  Identified unaligned streak: ['boys', 'get', 'here', "It's", 'seven', "o'clock"]
+  Audio for streak: local start=17.40, local end=21.02
+  RecursiveGentle (Depth 1): Aligning 'depth1_seg8997446021483125610_13.wav' (6 words) with offset 17.40s
+Core: Sending alignment request for depth1_seg8997446021483125610_13.wav and depth1_seg1195271910741818053_pu30tvei.txt...
+  Identified unaligned streak: ['belly']
+  Audio for streak: local start=23.30, local end=23.68       
+  Identified unaligned streak: ['beer', 'My', 'old', "man's"]
+  Audio for streak: local start=23.91, local end=23.92       
+  Identified unaligned streak: []
+  Audio for streak: local start=37.35, local end=295.44
+  Identified unaligned streak: []
+  Audio for streak: local start=37.35, local end=295.44
+  Identified unaligned streak: []
+  Audio for streak: local start=37.35, local end=295.44
+  Identified unaligned streak: []
+  Audio for streak: local start=37.35, local end=295.44
+  Identified unaligned streak: []
+  Audio for streak: local start=37.35, local end=295.44
+  Identified unaligned streak: []
+  Audio for streak: local start=37.35, local end=295.44
+  Identified unaligned streak: []
+  Audio for streak: local start=37.35, local end=295.44
+  Identified unaligned streak: []
+  Audio for streak: local start=37.35, local end=295.44
+  Identified unaligned streak: []
+  Audio for streak: local start=37.35, local end=295.44
+  Identified unaligned streak: []
+  Audio for streak: local start=37.35, local end=295.44
+  Identified unaligned streak: []
+  Audio for streak: local start=37.35, local end=295.44
+  Identified unaligned streak: []
+  Audio for streak: local start=37.35, local end=295.44
+  Identified unaligned streak: []
+  Audio for streak: local start=37.35, local end=295.44
+  Identified unaligned streak: []
+  Audio for streak: local start=37.35, local end=295.44
+  Identified unaligned streak: []
+  Audio for streak: local start=37.35, local end=295.44
+  Identified unaligned streak: []
+  Audio for streak: local start=37.35, local end=295.44
+  Identified unaligned streak: []
+  Audio for streak: local start=37.35, local end=295.44
+  Identified unaligned streak: []
+  Audio for streak: local start=37.35, local end=295.44
+  Identified unaligned streak: []
+  Audio for streak: local start=37.35, local end=295.44
+  Identified unaligned streak: []
+  Audio for streak: local start=37.35, local end=295.44
+  Identified unaligned streak: []
+  Audio for streak: local start=37.35, local end=295.44
+  Identified unaligned streak: []
+  Audio for streak: local start=37.35, local end=295.44
+  Identified unaligned streak: []
+  Audio for streak: local start=37.35, local end=295.44
+  Identified unaligned streak: []
+  Audio for streak: local start=37.35, local end=295.44
+  Identified unaligned streak: []
+  Audio for streak: local start=37.35, local end=295.44
+Traceback (most recent call last):
+  File "C:\Projects\gentle_files\recursivegentle\recursive_gentle.py", line 392, in <module>
+    final_results = process_song_recursively(
+  File "C:\Projects\gentle_files\recursivegentle\recursive_gentle.py", line 345, in process_song_recursively
+    all_aligned_word_data = recursive_gentle_align(
+  File "C:\Projects\gentle_files\recursivegentle\recursive_gentle.py", line 207, in recursive_gentle_align
+    segment_duration = get_audio_duration(
+  File "C:\Projects\gentle_files\recursivegentle\recursive_gentle.py", line 28, in get_audio_duration
+    result = subprocess.run(
+  File "C:\Python310\lib\subprocess.py", line 503, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "C:\Python310\lib\subprocess.py", line 1149, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+  File "C:\Python310\lib\subprocess.py", line 1523, in _communicate
+    self.stdout_thread.join(self._remaining_time(endtime))
+  File "C:\Python310\lib\threading.py", line 1089, in join
+    self._wait_for_tstate_lock()
+  File "C:\Python310\lib\threading.py", line 1109, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+KeyboardInterrupt

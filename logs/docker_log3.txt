@@ -1,0 +1,30 @@
+2025-04-25 10:02:07.441 | INFO:root:gentle 0.10.1
+2025-04-25 10:02:07.441 | INFO:root:listening at 0.0.0.0:8765
+2025-04-25 10:02:07.441 | 
+2025-04-25 10:02:07.441 | INFO:root:SERVE 8765, 0.0.0.0, 1
+2025-04-25 10:02:07.595 | INFO:root:about to listen
+2025-04-25 10:02:07.596 | INFO:root:listening
+2025-05-22 17:28:50.116 | INFO:root:1/17
+2025-05-22 17:28:50.481 | INFO:root:2/17
+2025-05-22 17:28:51.230 | INFO:root:3/17
+2025-05-22 17:28:51.480 | INFO:root:4/17
+2025-05-22 17:28:51.643 | INFO:root:5/17
+2025-05-22 17:28:52.448 | INFO:root:6/17
+2025-05-22 17:28:53.072 | INFO:root:7/17
+2025-05-22 17:28:53.536 | INFO:root:8/17
+2025-05-22 17:29:05.221 | INFO:root:9/17
+2025-05-22 17:29:06.994 | INFO:root:10/17
+2025-05-22 17:29:07.180 | INFO:root:11/17
+2025-05-22 17:29:07.736 | INFO:root:12/17
+2025-05-22 17:29:07.835 | INFO:root:13/17
+2025-05-22 17:29:08.088 | INFO:root:14/17
+2025-05-22 17:29:08.171 | INFO:root:15/17
+2025-05-22 17:29:08.485 | INFO:root:16/17
+2025-05-22 17:29:09.481 | INFO:root:17/17
+2025-05-22 17:29:09.495 | INFO:root:262 unaligned words (of 326)
+2025-05-22 17:29:35.892 | INFO:root:after 2nd pass: 227 unaligned words (of 326)
+2025-05-22 17:29:36.037 | INFO:root:done with transcription.
+2025-05-22 17:29:48.304 | INFO:root:1/1
+2025-05-22 17:29:48.305 | INFO:root:0 unaligned words (of 6)
+2025-05-22 17:29:48.324 | INFO:root:after 2nd pass: 0 unaligned words (of 6)
+2025-05-22 17:29:48.328 | INFO:root:done with transcription.

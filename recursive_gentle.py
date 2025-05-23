@@ -8,8 +8,14 @@ import shutil  # For cleaning up temporary directories
 from align import align_with_gentle_core
 
 # --- Configuration ---
-MAX_RECURSION_DEPTH = 2  # To prevent infinite loops, adjust as needed
+MAX_RECURSION_DEPTH = 3  # To prevent infinite loops, adjust as needed
 MIN_WORDS_FOR_RECURSION = 2  # Don't recurse on very small gaps if not desired
+
+
+def normalize_word(text, characters_to_strip=",."):
+    if not isinstance(text, str):  # Should not happen with Gentle output but good check
+        return ""
+    return text.lower().rstrip(characters_to_strip)
 
 
 def get_audio_duration(audio_file_path):
@@ -151,10 +157,12 @@ def recursive_gentle_align(
         if gentle_idx < len(gentle_output_words):
             gentle_word_info = gentle_output_words[gentle_idx]
 
-            # Basic check: Does Gentle's word match the transcript word?
-            # Gentle's 'word' field is the word from the input transcript.
-            # Case-insensitive comparison
-            if gentle_word_info['word'].lower() == current_word_obj['text'].lower():
+            # Normalize both for comparison:
+            normalized_gentle_word = normalize_word(gentle_word_info['word'])
+            normalized_transcript_word = normalize_word(
+                current_word_obj['text'])
+
+            if normalized_gentle_word == normalized_transcript_word:
                 if gentle_word_info['case'] == 'success':
                     # Successfully aligned word
                     compiled_results_for_this_segment.append({
