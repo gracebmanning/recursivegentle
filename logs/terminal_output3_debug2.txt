@@ -1,0 +1,411 @@
+Starting Recursive Gentle Aligner...
+Using temporary directory for audio segments: C:\Users\graci\AppData\Local\Temp\rec_gentle_run_wdq_o1bb
+RecursiveGentle (Depth 0): Aligning 'saturday-night-vocals-only.mp3' (326 words) with offset 0.00s
+Core: Sending alignment request for saturday-night-vocals-only.mp3 and depth0_seg535520947945496625_zo1l0v9m.txt...
+normalized_gentle_word: it's, normalized_transcript_word: it's
+the words are equivalent!
+success!
+normalized_gentle_word: getting, normalized_transcript_word: getting
+the words are equivalent!
+success!
+normalized_gentle_word: late, normalized_transcript_word: late      
+the words are equivalent!
+success!
+normalized_gentle_word: have, normalized_transcript_word: have      
+the words are equivalent!
+success!
+normalized_gentle_word: you, normalized_transcript_word: you        
+the words are equivalent!
+success!
+normalized_gentle_word: seen, normalized_transcript_word: seen
+the words are equivalent!
+success!
+normalized_gentle_word: my, normalized_transcript_word: my
+the words are equivalent!
+success!
+normalized_gentle_word: mates, normalized_transcript_word: mates
+the words are equivalent!
+success!
+normalized_gentle_word: ma, normalized_transcript_word: ma
+the words are equivalent!
+success!
+normalized_gentle_word: tell, normalized_transcript_word: tell
+the words are equivalent!
+success!
+normalized_gentle_word: me, normalized_transcript_word: me
+the words are equivalent!
+success!
+normalized_gentle_word: when, normalized_transcript_word: when
+the words are equivalent!
+success!
+normalized_gentle_word: the, normalized_transcript_word: the
+the words are equivalent!
+success!
+normalized_gentle_word: boys, normalized_transcript_word: boys
+the words are equivalent!
+not aligned
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+  Identified unaligned streak: ['boys', 'get', 'here', "It's", 'seven', "o'clock"]
+  Audio for streak: local start=17.40, local end=21.02
+  RecursiveGentle (Depth 1): Aligning 'depth1_seg-1389700622114563740_13.wav' (6 words) with offset 17.40s
+Core: Sending alignment request for depth1_seg-1389700622114563740_13.wav and depth1_seg-5372693011804995789_i3vixkg3.txt...
+normalized_gentle_word: boys, normalized_transcript_word: boys
+the words are equivalent!
+success!
+normalized_gentle_word: get, normalized_transcript_word: get
+the words are equivalent!
+success!
+normalized_gentle_word: here, normalized_transcript_word: here
+the words are equivalent!
+success!
+normalized_gentle_word: it's, normalized_transcript_word: it's
+the words are equivalent!
+success!
+normalized_gentle_word: seven, normalized_transcript_word: seven
+the words are equivalent!
+success!
+normalized_gentle_word: o'clock, normalized_transcript_word: o'clock
+the words are equivalent!
+success!
+normalized_gentle_word: and, normalized_transcript_word: and
+the words are equivalent!
+success!
+normalized_gentle_word: i, normalized_transcript_word: i
+the words are equivalent!
+success!
+normalized_gentle_word: want, normalized_transcript_word: want
+the words are equivalent!
+success!
+normalized_gentle_word: to, normalized_transcript_word: to
+the words are equivalent!
+success!
+normalized_gentle_word: rock, normalized_transcript_word: rock
+the words are equivalent!
+success!
+normalized_gentle_word: want, normalized_transcript_word: want
+the words are equivalent!
+success!
+normalized_gentle_word: to, normalized_transcript_word: to
+the words are equivalent!
+success!
+normalized_gentle_word: get, normalized_transcript_word: get
+the words are equivalent!
+success!
+normalized_gentle_word: a, normalized_transcript_word: a
+the words are equivalent!
+success!
+normalized_gentle_word: belly, normalized_transcript_word: belly
+the words are equivalent!
+not aligned
+inside while loop
+  Identified unaligned streak: ['belly']
+  Audio for streak: local start=23.30, local end=23.68
+normalized_gentle_word: full, normalized_transcript_word: full
+the words are equivalent!
+success!
+normalized_gentle_word: of, normalized_transcript_word: of
+the words are equivalent!
+success!
+normalized_gentle_word: beer, normalized_transcript_word: beer
+the words are equivalent!
+not aligned
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+  Identified unaligned streak: ['beer', 'My', 'old', "man's"]
+  Audio for streak: local start=23.91, local end=23.92
+normalized_gentle_word: drunker, normalized_transcript_word: drunker
+the words are equivalent!
+success!
+normalized_gentle_word: than, normalized_transcript_word: than
+the words are equivalent!
+success!
+normalized_gentle_word: a, normalized_transcript_word: a
+the words are equivalent!
+success!
+normalized_gentle_word: barrel, normalized_transcript_word: barrel
+the words are equivalent!
+success!
+normalized_gentle_word: full, normalized_transcript_word: full
+the words are equivalent!
+success!
+normalized_gentle_word: of, normalized_transcript_word: of
+the words are equivalent!
+success!
+normalized_gentle_word: monkeys, normalized_transcript_word: monkeys
+the words are equivalent!
+success!
+normalized_gentle_word: and, normalized_transcript_word: and
+the words are equivalent!
+success!
+normalized_gentle_word: my, normalized_transcript_word: my
+the words are equivalent!
+success!
+normalized_gentle_word: old, normalized_transcript_word: old
+the words are equivalent!
+success!
+normalized_gentle_word: lady, normalized_transcript_word: lady
+the words are equivalent!
+success!
+normalized_gentle_word: she, normalized_transcript_word: she
+the words are equivalent!
+success!
+normalized_gentle_word: don't, normalized_transcript_word: don't
+the words are equivalent!
+success!
+normalized_gentle_word: care, normalized_transcript_word: care
+the words are equivalent!
+success!
+normalized_gentle_word: my, normalized_transcript_word: my
+the words are equivalent!
+success!
+normalized_gentle_word: sister, normalized_transcript_word: sister
+the words are equivalent!
+success!
+normalized_gentle_word: looks, normalized_transcript_word: looks
+the words are equivalent!
+success!
+normalized_gentle_word: cute, normalized_transcript_word: cute
+the words are equivalent!
+success!
+normalized_gentle_word: in, normalized_transcript_word: in
+the words are equivalent!
+success!
+normalized_gentle_word: her, normalized_transcript_word: her
+the words are equivalent!
+success!
+normalized_gentle_word: braces, normalized_transcript_word: braces
+the words are equivalent!
+success!
+normalized_gentle_word: and, normalized_transcript_word: and
+the words are equivalent!
+success!
+normalized_gentle_word: boots, normalized_transcript_word: boots
+the words are equivalent!
+success!
+normalized_gentle_word: a, normalized_transcript_word: a
+the words are equivalent!
+success!
+normalized_gentle_word: handful, normalized_transcript_word: handful
+the words are equivalent!
+success!
+normalized_gentle_word: of, normalized_transcript_word: of
+the words are equivalent!
+success!
+normalized_gentle_word: grease, normalized_transcript_word: grease
+the words are equivalent!
+success!
+normalized_gentle_word: in, normalized_transcript_word: in
+the words are equivalent!
+success!
+normalized_gentle_word: her, normalized_transcript_word: her
+the words are equivalent!
+success!
+normalized_gentle_word: hair, normalized_transcript_word: hair
+the words are equivalent!
+success!
+normalized_gentle_word: oh, normalized_transcript_word: oh
+the words are equivalent!
+not aligned
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+  Identified unaligned streak: ['Oh,', "don't", 'give', 'us', 'none', 'of', 'your', 'aggravation', 'We', 'had', 'it', 'with', 'your', 'discipline', 'Oh,', 'Saturday', "night's"]
+  Audio for streak: local start=37.35, local end=37.28
+normalized_gentle_word: alright, normalized_transcript_word: alright
+the words are equivalent!
+success!
+normalized_gentle_word: for, normalized_transcript_word: for
+the words are equivalent!
+not aligned
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+  Identified unaligned streak: ['for', 'fighting', 'Get', 'a', 'little', 'action', 'in', 'Get', 'about', 'as', 'oiled', 'as', 'a', 'diesel', 'train', 'Gonna', 'set', 'this', 'dance', 'alight', "'Cause", 'Saturday', "night's", 'the', 'night', 'I', 'like', 'Saturday', "night's", 'alright', 'alright', 'alright,']
+  Audio for streak: local start=37.33, local end=37.34
+normalized_gentle_word: ooh, normalized_transcript_word: ooh
+the words are equivalent!
+success!
+normalized_gentle_word: well, normalized_transcript_word: well
+the words are equivalent!
+not aligned
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+inside while loop
+  Identified unaligned streak: ['Well', "they're", 'packed', 'pretty', 'tight', 'in', 'here', 'tonight', "I'm", 'looking', 'for', 'a', 'dolly', "who'll", 'see', 'me', 'right', 'I', 'may', 'use', 'a', 'little', 'muscle', 'to', 'get', 'what', 'I', 'need', 'I', 'may', 'sink', 'a', 'little', 'drink', 'and', 'shout', 'out', "she's", 'with', 'me', 'A', 'couple', 'of', 'the', 'sounds', 'that', 'I', 'really', 'like', 'Are', 'the', 'sounds', 'of', 'a', 'switchblade', 'and', 'a', 'motorbike', "I'm", 'a', 'juvenile', 
+'product', 'of', 'the', 'working', 'class', 'Whose', 'best', 'friend', 'floats', 'in', 'the', 'bottom', 'of', 'a', 'glass,', 'oh', "Don't", 'give', 'us', 'none', 'of', 'your', 'aggravation', 'We', 'had', 'it', 'with', 'your', 'discipline', 'Saturday', "night's", 'alright', 'for', 'fighting', 'Get', 'a', 'little', 'action', 'in', 'Get', 'about', 'as', 'oiled', 'as', 'a', 'diesel', 'train', 'Gonna', 'set', 'this', 'dance', 'alight', "'Cause", 'Saturday', "night's", 'the', 'night', 'I', 'like', 'Saturday', "night's", 'alright', 'alright', 'alright,', 'ooh']
+  Audio for streak: local start=37.42, local end=295.44
+  RecursiveGentle (Depth 1): Aligning 'depth1_seg4559399815668154559_116.wav' (126 words) with offset 37.42s
+Core: Sending alignment request for depth1_seg4559399815668154559_116.wav and depth1_seg-547603364088685826_hn5q92km.txt...

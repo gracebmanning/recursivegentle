@@ -185,7 +185,7 @@ def recursive_gentle_align(
                     # Collect the streak of unaligned words
                     while transcript_idx < len(transcript_word_objects) and \
                             gentle_idx < len(gentle_output_words) and \
-                            gentle_output_words[gentle_idx]['word'].lower() == transcript_word_objects[transcript_idx]['text'].lower() and \
+                            normalize_word(gentle_output_words[gentle_idx]['word']) == normalize_word(transcript_word_objects[transcript_idx]['text']) and \
                             gentle_output_words[gentle_idx]['case'] != 'success':
                         unaligned_streak_transcript_objects.append(
                             transcript_word_objects[transcript_idx])

@@ -1,0 +1,141 @@
+Starting Recursive Gentle Aligner...
+Using temporary directory for audio segments: C:\Users\graci\AppData\Local\Temp\rec_gentle_run_8_c_lzz_
+RecursiveGentle (Depth 0): Aligning 'saturday-night-vocals-only.mp3' (326 words) with offset 0.00s
+Core: Sending alignment request for saturday-night-vocals-only.mp3 and depth0_seg-5524732571907359791_l89492q7.txt...
+normalized_gentle_word: it's, normalized_transcript_word: it's
+normalized_gentle_word: getting, normalized_transcript_word: getting
+normalized_gentle_word: late, normalized_transcript_word: late      
+normalized_gentle_word: have, normalized_transcript_word: have      
+normalized_gentle_word: you, normalized_transcript_word: you
+normalized_gentle_word: seen, normalized_transcript_word: seen
+normalized_gentle_word: my, normalized_transcript_word: my
+normalized_gentle_word: mates, normalized_transcript_word: mates
+normalized_gentle_word: ma, normalized_transcript_word: ma
+normalized_gentle_word: tell, normalized_transcript_word: tell
+normalized_gentle_word: me, normalized_transcript_word: me
+normalized_gentle_word: when, normalized_transcript_word: when
+normalized_gentle_word: the, normalized_transcript_word: the
+normalized_gentle_word: boys, normalized_transcript_word: boys
+  Identified unaligned streak: ['boys', 'get', 'here', "It's", 'seven', "o'clock"]
+  Audio for streak: local start=17.40, local end=21.02
+  RecursiveGentle (Depth 1): Aligning 'depth1_seg6676620217096753280_13.wav' (6 words) with offset 17.40s
+Core: Sending alignment request for depth1_seg6676620217096753280_13.wav and depth1_seg3945698379989837648_t70i00f1.txt...
+normalized_gentle_word: boys, normalized_transcript_word: boys
+normalized_gentle_word: get, normalized_transcript_word: get
+normalized_gentle_word: here, normalized_transcript_word: here
+normalized_gentle_word: it's, normalized_transcript_word: it's
+normalized_gentle_word: seven, normalized_transcript_word: seven
+normalized_gentle_word: o'clock, normalized_transcript_word: o'clock
+normalized_gentle_word: and, normalized_transcript_word: and
+normalized_gentle_word: i, normalized_transcript_word: i
+normalized_gentle_word: want, normalized_transcript_word: want
+normalized_gentle_word: to, normalized_transcript_word: to
+normalized_gentle_word: rock, normalized_transcript_word: rock
+normalized_gentle_word: want, normalized_transcript_word: want
+normalized_gentle_word: to, normalized_transcript_word: to
+normalized_gentle_word: get, normalized_transcript_word: get
+normalized_gentle_word: a, normalized_transcript_word: a
+normalized_gentle_word: belly, normalized_transcript_word: belly
+  Identified unaligned streak: ['belly']
+  Audio for streak: local start=23.30, local end=23.68
+normalized_gentle_word: full, normalized_transcript_word: full
+normalized_gentle_word: of, normalized_transcript_word: of
+normalized_gentle_word: beer, normalized_transcript_word: beer
+  Identified unaligned streak: ['beer', 'My', 'old', "man's"]
+  Audio for streak: local start=23.91, local end=23.92
+normalized_gentle_word: drunker, normalized_transcript_word: drunker
+normalized_gentle_word: than, normalized_transcript_word: than
+normalized_gentle_word: a, normalized_transcript_word: a
+normalized_gentle_word: barrel, normalized_transcript_word: barrel
+normalized_gentle_word: full, normalized_transcript_word: full
+normalized_gentle_word: of, normalized_transcript_word: of
+normalized_gentle_word: monkeys, normalized_transcript_word: monkeys
+normalized_gentle_word: and, normalized_transcript_word: and
+normalized_gentle_word: my, normalized_transcript_word: my
+normalized_gentle_word: old, normalized_transcript_word: old
+normalized_gentle_word: lady, normalized_transcript_word: lady
+normalized_gentle_word: she, normalized_transcript_word: she
+normalized_gentle_word: don't, normalized_transcript_word: don't
+normalized_gentle_word: care, normalized_transcript_word: care
+normalized_gentle_word: my, normalized_transcript_word: my
+normalized_gentle_word: sister, normalized_transcript_word: sister
+normalized_gentle_word: looks, normalized_transcript_word: looks
+normalized_gentle_word: cute, normalized_transcript_word: cute
+normalized_gentle_word: in, normalized_transcript_word: in
+normalized_gentle_word: her, normalized_transcript_word: her
+normalized_gentle_word: braces, normalized_transcript_word: braces
+normalized_gentle_word: and, normalized_transcript_word: and
+normalized_gentle_word: boots, normalized_transcript_word: boots
+normalized_gentle_word: a, normalized_transcript_word: a
+normalized_gentle_word: handful, normalized_transcript_word: handful
+normalized_gentle_word: of, normalized_transcript_word: of
+normalized_gentle_word: grease, normalized_transcript_word: grease
+normalized_gentle_word: in, normalized_transcript_word: in
+normalized_gentle_word: her, normalized_transcript_word: her
+normalized_gentle_word: hair, normalized_transcript_word: hair
+normalized_gentle_word: oh, normalized_transcript_word: oh
+  Identified unaligned streak: []
+  Audio for streak: local start=37.35, local end=295.44
+normalized_gentle_word: oh, normalized_transcript_word: oh
+  Identified unaligned streak: []
+  Audio for streak: local start=37.35, local end=295.44
+normalized_gentle_word: oh, normalized_transcript_word: oh
+  Identified unaligned streak: []
+  Audio for streak: local start=37.35, local end=295.44
+normalized_gentle_word: oh, normalized_transcript_word: oh
+  Identified unaligned streak: []
+  Audio for streak: local start=37.35, local end=295.44
+normalized_gentle_word: oh, normalized_transcript_word: oh
+  Identified unaligned streak: []
+  Audio for streak: local start=37.35, local end=295.44
+normalized_gentle_word: oh, normalized_transcript_word: oh
+  Identified unaligned streak: []
+  Audio for streak: local start=37.35, local end=295.44
+normalized_gentle_word: oh, normalized_transcript_word: oh
+  Identified unaligned streak: []
+  Audio for streak: local start=37.35, local end=295.44
+normalized_gentle_word: oh, normalized_transcript_word: oh
+  Identified unaligned streak: []
+  Audio for streak: local start=37.35, local end=295.44
+normalized_gentle_word: oh, normalized_transcript_word: oh
+  Identified unaligned streak: []
+  Audio for streak: local start=37.35, local end=295.44
+normalized_gentle_word: oh, normalized_transcript_word: oh
+  Identified unaligned streak: []
+  Audio for streak: local start=37.35, local end=295.44
+normalized_gentle_word: oh, normalized_transcript_word: oh
+  Identified unaligned streak: []
+  Audio for streak: local start=37.35, local end=295.44
+normalized_gentle_word: oh, normalized_transcript_word: oh
+  Identified unaligned streak: []
+  Audio for streak: local start=37.35, local end=295.44
+normalized_gentle_word: oh, normalized_transcript_word: oh
+  Identified unaligned streak: []
+  Audio for streak: local start=37.35, local end=295.44
+normalized_gentle_word: oh, normalized_transcript_word: oh
+  Identified unaligned streak: []
+  Audio for streak: local start=37.35, local end=295.44
+normalized_gentle_word: oh, normalized_transcript_word: oh
+  Identified unaligned streak: []
+  Audio for streak: local start=37.35, local end=295.44
+normalized_gentle_word: oh, normalized_transcript_word: oh
+Traceback (most recent call last):
+  File "C:\Projects\gentle_files\recursivegentle\recursive_gentle.py", line 395, in <module>
+    final_results = process_song_recursively(
+  File "C:\Projects\gentle_files\recursivegentle\recursive_gentle.py", line 348, in process_song_recursively
+    all_aligned_word_data = recursive_gentle_align(
+  File "C:\Projects\gentle_files\recursivegentle\recursive_gentle.py", line 210, in recursive_gentle_align
+    segment_duration = get_audio_duration(
+  File "C:\Projects\gentle_files\recursivegentle\recursive_gentle.py", line 28, in get_audio_duration
+    result = subprocess.run(
+  File "C:\Python310\lib\subprocess.py", line 503, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "C:\Python310\lib\subprocess.py", line 1149, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+  File "C:\Python310\lib\subprocess.py", line 1523, in _communicate
+    self.stdout_thread.join(self._remaining_time(endtime))
+  File "C:\Python310\lib\threading.py", line 1089, in join
+    self._wait_for_tstate_lock()
+  File "C:\Python310\lib\threading.py", line 1109, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+KeyboardInterrupt
