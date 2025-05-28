@@ -3,6 +3,7 @@ import os
 import json
 import tempfile  # For creating temporary transcript files
 import shutil  # For cleaning up temporary directories
+import argparse
 
 # Assuming gentle_client.py is in the same directory or your Python path
 from align import align_with_gentle_core
@@ -367,45 +368,78 @@ def process_song_recursively(original_audio_path, original_transcript_text):
 
 # --- Main execution block ---
 if __name__ == '__main__':
+    # 1. Set up the argument parser
+    parser = argparse.ArgumentParser(
+        prog="RecursiveGentle",
+        description="Align a transcript to an audio file using a recursive approach with Gentle."
+    )
+
+    # 2. Define the command-line arguments we expect
+    parser.add_argument(
+        "audio_file",
+        help="Path to the input audio file (e.g., mp3, wav)."
+    )
+    parser.add_argument(
+        "transcript_file",
+        help="Path to the input plain text transcript file (.txt)."
+    )
+    parser.add_argument(
+        "-o", "--output",
+        help="Path to save the output JSON file. Defaults to 'recursive_output.json' in the current directory.",
+        default="recursive_output.json"
+    )
+
+    # 3. Parse the arguments provided by the user
+    args = parser.parse_args()
+
+    # Use the parsed arguments instead of hardcoded paths
+    audio_file_path = args.audio_file
+    transcript_file_path = args.transcript_file
+    output_json_path = args.output
+
     print("Starting Recursive Gentle Aligner...")
+    print(f"  Audio File: {audio_file_path}")
+    print(f"  Transcript File: {transcript_file_path}")
+    print(f"  Output File: {output_json_path}")
 
-    # Configure paths (MAKE SURE THESE FILES EXIST)
-    # Using the example from your output
-    # You should have a WAV file and a plain text transcript file.
-    # The transcript should contain the words:
-    # "It's getting late have you seen my mates Ma tell me when the boys get here It's seven o'clock and"
-    # (or at least the part your JSON sample covers)
-    test_audio_file = "C:/Projects/gentle_files/saturdayNight/saturday-night-vocals-only.mp3"
-    test_transcript_file = "C:/Projects/gentle_files/saturdayNight/SaturdayNightsAlright-lyrics.txt"
-    output_json_recursive = "C:/Projects/gentle_files/recursivegentle/output/recursive_output.json"
-
-    if not os.path.exists(test_audio_file):
-        print(f"ERROR: Test audio file not found: {test_audio_file}")
+    # 4. Check if the input files exist
+    if not os.path.exists(audio_file_path):
+        print(f"\nERROR: Test audio file not found: {audio_file_path}")
         exit()
-    if not os.path.exists(test_transcript_file):
-        print(f"ERROR: Test transcript file not found: {test_transcript_file}")
+    if not os.path.exists(transcript_file_path):
+        print(
+            f"\nERROR: Test transcript file not found: {transcript_file_path}")
         exit()
 
-    with open(test_transcript_file, 'r', encoding='utf-8') as f:
+    # 5. Read the transcript and run the process
+    with open(transcript_file_path, 'r', encoding='utf-8') as f:
         transcript_content = f.read()
 
     final_results = process_song_recursively(
-        test_audio_file, transcript_content)
+        audio_file_path, transcript_content
+    )
 
+    # 6. Print and save the results
     print("\n--- Final Recursive Alignment Results ---")
     if final_results:
-        for res in final_results:
-            status = f"Start: {res['start']:.2f}, End: {res['end']:.2f}" if res['case'] == 'success' else f"Status: {res['case']}"
-            print(
-                f"  Index {res['original_global_index']:03d} | Word: '{res['word']}' | {status}")
+        # (The rest of this logic for printing and saving remains the same)
+        # Sort results to be safe
+        final_results.sort(key=lambda x: x.get('original_global_index', 0))
 
-        # Save to JSON
-        output_dir = os.path.dirname(output_json_recursive)
-        if not os.path.exists(output_dir):
+        for res in final_results:
+            status = f"Start: {res['start']:.2f}, End: {res['end']:.2f}" if res.get(
+                'case') == 'success' else f"Status: {res.get('case')}"
+            print(
+                f"  Index {res.get('original_global_index', 0):03d} | Word: '{res.get('word')}' | {status}")
+
+        output_dir = os.path.dirname(output_json_path)
+        # Ensure the output directory exists
+        if output_dir and not os.path.exists(output_dir):
             os.makedirs(output_dir)
-        with open(output_json_recursive, 'w', encoding='utf-8') as f:
+
+        with open(output_json_path, 'w', encoding='utf-8') as f:
             json.dump(final_results, f, indent=4)
         print(
-            f"\nFull recursive alignment results saved to: {output_json_recursive}")
+            f"\nFull recursive alignment results saved to: {output_json_path}")
     else:
         print("No alignment results produced.")
