@@ -13,7 +13,7 @@ MAX_RECURSION_DEPTH = 3  # To prevent infinite loops, adjust as needed
 MIN_WORDS_FOR_RECURSION = 2  # Don't recurse on very small gaps if not desired
 
 
-def normalize_word(text, characters_to_strip=",."):
+def normalize_word(text, characters_to_strip=",.:"):
     if not isinstance(text, str):  # Should not happen with Gentle output but good check
         return ""
     return text.lower().rstrip(characters_to_strip)
